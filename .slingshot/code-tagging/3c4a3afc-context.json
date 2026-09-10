@@ -1,0 +1,15 @@
+{
+  "filename": "test2.txt",
+  "path": "test2.txt",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "99df02d4": {
+      "value": "to create pull request what is pre requisite since i am new to gitlab"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}
