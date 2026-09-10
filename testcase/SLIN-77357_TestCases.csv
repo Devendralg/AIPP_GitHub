@@ -1,0 +1,146 @@
+Name,Objective,Test Script (Step-by-Step) - Step,Test Script (Step-by-Step) - Test Data,Test Script (Step-by-Step) - Expected Result,Status,Priority,Component,Test Type,Test Method
+TC_77357_01: Verify Token Tracking for Main Agent LLM Calls,Verify that token usage from main agent LLM calls is accurately tracked and displayed in the UI,"Step 1: Open Slingshot IntelliJ plugin
+Step 2: Initiate a conversation with the agent
+Step 3: Send a simple query that triggers main agent LLM call
+Step 4: Observe the token usage UI
+Step 5: Verify the token count is displayed",Query: 'What is the current date?',"Step 1: Plugin opens successfully
+Step 2: Conversation interface is ready
+Step 3: Agent responds to the query
+Step 4: Token usage UI is visible
+Step 5: Token count shows non-zero value for input and output tokens",Not Started,High,IDE,Functional,Positive
+TC_77357_02: Verify Token Tracking for Tool Output Compaction,Verify that token usage from secondary LLM calls triggered by tool output compaction is tracked and added to total usage,"Step 1: Open Slingshot IntelliJ plugin
+Step 2: Send a query that triggers tool execution with large output
+Step 3: Observe when tool output compaction occurs
+Step 4: Check the token usage UI before and after compaction
+Step 5: Verify total token count increases after compaction",Query: 'List all files in the workspace with detailed analysis',"Step 1: Plugin opens successfully
+Step 2: Tool executes and returns large output
+Step 3: Compaction is triggered automatically
+Step 4: Token usage UI shows incremental update
+Step 5: Total token count reflects both main call and compaction LLM tokens",Not Started,High,IDE,Functional,Positive
+TC_77357_03: Verify Token Tracking for Manual Compaction,Verify that token usage from secondary LLM calls triggered by manual compaction is tracked and aggregated correctly,"Step 1: Open Slingshot IntelliJ plugin
+Step 2: Execute a query that generates large content
+Step 3: Manually trigger compaction option
+Step 4: Observe token usage UI update
+Step 5: Verify manual compaction tokens are added to total","Query: 'Read multiple large files and analyze'
+Manual Action: Click on manual compaction option","Step 1: Plugin opens successfully
+Step 2: Large content is generated
+Step 3: Manual compaction executes successfully
+Step 4: Token usage UI updates in real-time
+Step 5: Total token usage includes manual compaction LLM call tokens",Not Started,High,IDE,Functional,Positive
+TC_77357_04: Verify No Double-Counting of Secondary LLM Usage,Verify that secondary LLM calls are counted only once and not duplicated in the total token usage,"Step 1: Open Slingshot IntelliJ plugin
+Step 2: Trigger multiple tool calls with compaction
+Step 3: Note the token count after first compaction
+Step 4: Trigger another compaction event
+Step 5: Verify each compaction is counted only once","Query 1: 'Analyze all Java files'
+Query 2: 'Search for patterns in the codebase'","Step 1: Plugin opens successfully
+Step 2: Tool calls execute with compaction
+Step 3: Token count recorded: X tokens
+Step 4: Second compaction occurs
+Step 5: Total tokens = X + Y (new compaction), not duplicated",Not Started,High,IDE,Functional,Negative
+TC_77357_05: Verify Token Usage Accuracy Across Multiple Compaction Events,Verify that token usage remains accurate when multiple compaction events occur within the same session,"Step 1: Open Slingshot IntelliJ plugin
+Step 2: Execute query requiring multiple compactions
+Step 3: Monitor token usage after each compaction
+Step 4: Complete the session with 3+ compaction events
+Step 5: Verify final total is sum of all individual calls","Query: 'Perform comprehensive codebase analysis with multiple large file reads'
+Expected Compactions: 3-5 events","Step 1: Plugin opens successfully
+Step 2: Query triggers multiple compactions
+Step 3: Token count increments after each compaction
+Step 4: All compaction events complete
+Step 5: Total tokens = Main call + Compaction1 + Compaction2 + Compaction3...",Not Started,High,IDE,Functional,Positive
+TC_77357_06: Verify Token Usage Display in UI,Verify that the UI clearly displays the updated total token consumption including all LLM calls,"Step 1: Open Slingshot IntelliJ plugin
+Step 2: Execute a simple query
+Step 3: Locate token usage display in UI
+Step 4: Verify display shows input tokens, output tokens, and total
+Step 5: Verify values are readable and formatted correctly",Query: 'Help me understand this code',"Step 1: Plugin opens successfully
+Step 2: Query executes successfully
+Step 3: Token usage section is visible in UI
+Step 4: Display shows: Input tokens: X, Output tokens: Y, Total: Z
+Step 5: Values are numeric and properly formatted",Not Started,Medium,IDE,Functional,Positive
+TC_77357_07: Verify Token Tracking for Other Agent-Initiated LLM Calls,Verify that token usage from other agent-initiated LLM calls is tracked and included in total usage,"Step 1: Open Slingshot IntelliJ plugin
+Step 2: Trigger a workflow that spawns sub-agents
+Step 3: Monitor token usage during sub-agent execution
+Step 4: Verify sub-agent LLM calls are tracked
+Step 5: Verify total includes all agent calls",Query: 'Run parallel agents to analyze multiple modules',"Step 1: Plugin opens successfully
+Step 2: Sub-agents are spawned
+Step 3: Token usage increments during sub-agent activity
+Step 4: Each sub-agent LLM call is counted
+Step 5: Total tokens = Main agent + Sub-agent1 + Sub-agent2...",Not Started,High,IDE,Functional,Positive
+TC_77357_08: Verify Token Usage with Zero Token Consumption,Verify that the system correctly handles scenarios where no tokens are consumed,"Step 1: Open Slingshot IntelliJ plugin
+Step 2: Perform an action that doesn't trigger LLM call
+Step 3: Check token usage UI
+Step 4: Verify token count remains at previous value or shows 0 for new session
+Step 5: Confirm no false token increments",Action: Open plugin without sending any query,"Step 1: Plugin opens successfully
+Step 2: No LLM call is made
+Step 3: Token usage UI is visible
+Step 4: Token count shows 0 or no change from previous value
+Step 5: No unexpected token usage recorded",Not Started,Medium,IDE,Functional,Edge Case
+TC_77357_09: Verify Token Usage with Maximum Token Limit,Verify that the system correctly handles and displays token usage when approaching or reaching maximum token limits,"Step 1: Open Slingshot IntelliJ plugin
+Step 2: Execute queries that consume large amounts of tokens
+Step 3: Monitor token usage as it approaches limit (e.g., 200000 tokens)
+Step 4: Verify UI displays warning if applicable
+Step 5: Verify total token count is accurate","Query: 'Analyze entire large codebase with detailed explanations'
+Expected tokens: Close to maximum limit","Step 1: Plugin opens successfully
+Step 2: Large token consumption queries execute
+Step 3: Token count increases significantly
+Step 4: Warning message appears if limit is near
+Step 5: Total token count is accurate and not truncated",Not Started,High,IDE,Functional,Edge Case
+TC_77357_10: Verify Token Usage Reset on New Session,Verify that token usage counter resets appropriately when a new session is started,"Step 1: Open Slingshot IntelliJ plugin
+Step 2: Execute queries consuming tokens (e.g., 1000 tokens)
+Step 3: Note the total token usage
+Step 4: Start a new session/conversation
+Step 5: Verify token counter resets to 0 for new session","Session 1 Query: 'Explain this function'
+Session 2: Start new conversation","Step 1: Plugin opens successfully
+Step 2: Token usage shows 1000+ tokens
+Step 3: Total recorded: 1000 tokens
+Step 4: New session starts
+Step 5: Token counter shows 0 or session-specific count",Not Started,Medium,IDE,Functional,Positive
+TC_77357_11: Verify Token Usage with Invalid/Null Responses,Verify that the system handles token tracking correctly when LLM calls fail or return null responses,"Step 1: Open Slingshot IntelliJ plugin
+Step 2: Trigger a query that may cause LLM failure
+Step 3: Observe the error handling
+Step 4: Check token usage UI
+Step 5: Verify failed calls don't corrupt token count",Query: Send malformed request or trigger network timeout,"Step 1: Plugin opens successfully
+Step 2: LLM call fails
+Step 3: Error message is displayed
+Step 4: Token usage UI remains stable
+Step 5: Token count doesn't show NaN, null, or negative values",Not Started,Medium,IDE,Functional,Negative
+TC_77357_12: Verify Concurrent Token Tracking Accuracy,Verify that token usage is accurately tracked when multiple LLM calls occur concurrently,"Step 1: Open Slingshot IntelliJ plugin
+Step 2: Trigger parallel agents with multiple concurrent LLM calls
+Step 3: Monitor token usage during concurrent execution
+Step 4: Wait for all concurrent calls to complete
+Step 5: Verify total token count is sum of all concurrent calls","Query: 'Run parallel analysis on 5 different modules'
+Expected: 5+ concurrent LLM calls","Step 1: Plugin opens successfully
+Step 2: Multiple agents execute in parallel
+Step 3: Token usage updates during execution
+Step 4: All concurrent calls complete
+Step 5: Total tokens = Call1 + Call2 + Call3 + Call4 + Call5 (no race conditions)",Not Started,High,IDE,Functional,Edge Case
+TC_77357_13: Verify Token Usage with Empty/Minimal Queries,Verify that token tracking works correctly for minimal token consumption scenarios,"Step 1: Open Slingshot IntelliJ plugin
+Step 2: Send a very short query (1-2 words)
+Step 3: Observe token usage UI
+Step 4: Verify minimal token count is displayed
+Step 5: Verify accuracy of small token values","Query: 'Hi' or 'Help'
+Expected tokens: Less than 10","Step 1: Plugin opens successfully
+Step 2: Short query executes
+Step 3: Token usage UI updates
+Step 4: Token count shows small positive value (e.g., 5-8 tokens)
+Step 5: Display accurately reflects minimal usage",Not Started,Low,IDE,Functional,Edge Case
+TC_77357_14: Verify Token Usage Aggregation Formula Correctness,"Verify that the aggregation formula correctly sums main agent calls, tool compaction calls, manual compaction calls, and other agent calls","Step 1: Open Slingshot IntelliJ plugin
+Step 2: Execute a complex workflow with all types of LLM calls
+Step 3: Note individual token counts for each call type
+Step 4: Calculate expected total manually
+Step 5: Compare with displayed total in UI","Workflow: Main query + Tool compaction + Manual compaction + Sub-agent call
+Main: 100 tokens, Tool: 50, Manual: 30, Sub-agent: 20
+Expected Total: 200 tokens","Step 1: Plugin opens successfully
+Step 2: All call types execute
+Step 3: Individual counts: Main=100, Tool=50, Manual=30, Sub=20
+Step 4: Manual calculation: 100+50+30+20 = 200
+Step 5: UI displays total: 200 tokens (match confirmed)",Not Started,High,IDE,Functional,Positive
+TC_77357_15: Verify Token Usage Persistence Across Plugin Restart,Verify the behavior of token usage tracking when the IntelliJ plugin is restarted during an active session,"Step 1: Open Slingshot IntelliJ plugin
+Step 2: Execute queries consuming tokens (e.g., 500 tokens)
+Step 3: Note the total token usage displayed
+Step 4: Restart the IntelliJ plugin
+Step 5: Verify token usage behavior after restart","Pre-restart tokens: 500
+Action: Restart plugin","Step 1: Plugin opens successfully
+Step 2: Token usage accumulates to 500 tokens
+Step 3: Total displayed: 500 tokens
+Step 4: Plugin restarts successfully
+Step 5: Token count either resets to 0 (expected for new session) or persists based on session management design",Not Started,Medium,IDE,Functional,Edge Case

@@ -1,0 +1,18 @@
+{
+  "filename": "contact-form.html",
+  "path": "contact-form.html",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "ca6e54eb": {
+      "value": "i need to test these features as part of sanity testing so expalin the feature and give one test prompt for these \"Tool output/ Tool Input  response validation, tool output copy button\""
+    },
+    "505c3d23": {
+      "value": "understand the workspace and give me prompts for above in one liner with validation"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

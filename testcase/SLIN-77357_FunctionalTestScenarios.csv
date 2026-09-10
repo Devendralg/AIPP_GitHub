@@ -1,0 +1,22 @@
+S.no,Stories,Assignee,Scenario Type,Scenarios
+1,SLIN-77357|Slingshot | IntelliJ | Track Total Token Usage Across All LLM Calls,Devendra,Positive,"Verify main agent LLM calls are tracked and token usage is displayed in the UI.
+Verify token usage from tool output compaction LLM calls is tracked and added to the total.
+Verify token usage from manual compaction LLM calls is tracked and added to the total.
+Verify the UI displays aggregated token usage from all LLM calls (main + secondary) accurately.
+Verify token usage updates in real-time as new LLM calls are made during the session.
+Verify the total token consumption reflects all compaction events correctly.
+Verify token usage tracking works correctly when multiple tool output compactions occur in sequence.
+Verify the UI accurately shows token usage after both manual and automatic compaction in the same session."
+2,SLIN-77357|Slingshot | IntelliJ | Track Total Token Usage Across All LLM Calls,Devendra,Negative,"Verify token usage is not double-counted when the same LLM call result is referenced multiple times.
+Verify token usage remains accurate when compaction fails or is interrupted.
+Verify the system handles scenarios where secondary LLM calls fail without corrupting the total token count.
+Verify token usage tracking does not break when no compaction occurs in a session.
+Verify the UI displays appropriate messaging when token tracking data is unavailable or incomplete.
+Verify token usage is not incorrectly aggregated when multiple agents run concurrently."
+3,SLIN-77357|Slingshot | IntelliJ | Track Total Token Usage Across All LLM Calls,Devendra,Edge,"Verify token usage tracking with zero secondary LLM calls (only main agent calls).
+Verify token usage tracking when the number of compaction events exceeds typical session limits.
+Verify accurate token tracking when extremely large outputs trigger multiple compaction cycles.
+Verify the system handles maximum concurrent LLM calls without losing token count accuracy.
+Verify token usage display when the total exceeds UI display limits or maximum integer values.
+Verify token tracking accuracy when session spans multiple hours with numerous compaction events.
+Verify the system correctly tracks tokens when compaction is triggered at the exact same timestamp as the main LLM call."

@@ -8,5 +8,10 @@
         "COMPACTION_ENABLED": "true"
     },
     "Slingshot.enablePromptRecommendationInSmartChat": true,
-    "Slingshot.enableAtTheRateWorkspaceFeature": true
+    "Slingshot.enableAtTheRateWorkspaceFeature": true,
+    "Slingshot.enableECGMcpServer": true,
+    "Slingshot.atTheRateWorkspaceIgnoredFilePatterns": [
+        "*.java"
+    ],
+    "Slingshot.enableLogs": true
 }

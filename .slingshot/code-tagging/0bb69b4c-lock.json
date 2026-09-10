@@ -1,0 +1,799 @@
+{
+  "testcase\\SLIN-77267_TestCases.csv": {
+    "filename": "SLIN-77267_TestCases.csv",
+    "path": "testcase\\SLIN-77267_TestCases.csv",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "1bea72": {
+        "user": "Devendrappa .",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788933396,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.3.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "jira": "4d927765",
+          "promptMessage": "dad669ab"
+        },
+        "hash": "d257e232",
+        "messageId": "system_dc748a90-ac12-11f1-8ba8-1d17b4bd5d67",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendrappa .\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/9/2026, 11:26:36 AM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "1bea72",
+        "hash": "0b58e2dc",
+        "encoded": "Name,Objective,Test%20Script%20(Step-by-Step)%20-%20Step,Test%20Script%20(Step-by-Step)%20-%20Test%20Data,Test%20Script%20(Step-by-Step)%20-%20Expected%20Result,Status,Priority,Component,Test%20Type,Test%20Method",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "1bea72",
+        "hash": "f9fc5785",
+        "encoded": "%22TC001:%20Verify%20Lightweight%20Tool%20Catalog%20Embedding%20in%20System%20Prompt%22,%22Validate%20that%20the%20system%20prompt%20contains%20a%20lightweight%20tool%20catalog%20with%20tool%20names,%20descriptions,%20and%20categories%20when%20lazy%20tool%20registry%20is%20enabled%22,%22Step%201:%20Enable%20lazy%20tool%20registry%20by%20setting%20local%20IDE%20setting%20to%20ON%20and%20remote%20config%20flag%20to%20true",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "1bea72",
+        "hash": "7ebf5f4f",
+        "encoded": "Step%202:%20Trigger%20a%20new%20user%20message%20to%20the%20local%20agent",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "1bea72",
+        "hash": "bad4a6c2",
+        "encoded": "Step%203:%20Inspect%20the%20system%20prompt%20sent%20to%20the%20LLM",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "1bea72",
+        "hash": "9f0a6415",
+        "encoded": "Step%204:%20Verify%20the%20presence%20of%20%3Ctool_catalog%3E%20block%20in%20the%20system%20prompt",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "1bea72",
+        "hash": "56600a3b",
+        "encoded": "Step%205:%20Confirm%20the%20catalog%20contains%20tool%20names,%20descriptions,%20and%20categories%20only%20(not%20full%20schemas)%22,%22Local%20Setting:%20ON",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "1bea72",
+        "hash": "2f3b0d89",
+        "encoded": "Remote%20Flag:%20true",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "1bea72",
+        "hash": "da436cd7",
+        "encoded": "User%20Message:%20'Hello%20Slingshot'%22,%22Step%201:%20Both%20flags%20are%20set%20correctly",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "1bea72",
+        "hash": "bdf8172e",
+        "encoded": "Step%202:%20User%20message%20is%20processed",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "1bea72",
+        "hash": "ed6d315e",
+        "encoded": "Step%203:%20System%20prompt%20is%20accessible%20for%20inspection",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "1bea72",
+        "hash": "333df263",
+        "encoded": "Step%204:%20%3Ctool_catalog%3E%20block%20is%20present%20in%20the%20system%20prompt",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "1bea72",
+        "hash": "949f6cae",
+        "encoded": "Step%205:%20Catalog%20contains%20only%20name,%20description,%20and%20category%20for%20each%20tool%20without%20full%20JSON%20schemas%22,%22Not%20Started%22,%22P1%22,%22Lazy%20Tool%20Registry%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "1bea72",
+        "hash": "ec981d99",
+        "encoded": "%22TC002:%20Verify%20Register%20Tools%20Functionality%20with%20Valid%20Tool%20Names%22,%22Test%20that%20calling%20register_tools%20with%20valid%20tool%20names%20makes%20those%20tools%20available%20in%20the%20next%20LLM%20turn%22,%22Step%201:%20Enable%20lazy%20tool%20registry%20feature",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "1bea72",
+        "hash": "8c6f9b16",
+        "encoded": "Step%202:%20Send%20a%20user%20message%20requiring%20specific%20tools%20(e.g.,%20read_file,%20write_file)",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "1bea72",
+        "hash": "e9aa6f6a",
+        "encoded": "Step%203:%20Observe%20LLM%20calls%20register_tools%20with%20exact%20tool%20names%20from%20catalog",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "1bea72",
+        "hash": "fa06467a",
+        "encoded": "Step%204:%20Verify%20register_tools%20returns%20success%20response",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "1bea72",
+        "hash": "87d48d3a",
+        "encoded": "Step%205:%20Confirm%20full%20tool%20schemas%20are%20available%20in%20the%20next%20LLM%20turn",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "1bea72",
+        "hash": "7a00f568",
+        "encoded": "Step%206:%20Execute%20the%20registered%20tools%20successfully%22,%22Tool%20Names:%20%5B'read_file',%20'write_file'%5D",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "1bea72",
+        "hash": "3634ffcc",
+        "encoded": "User%20Message:%20'Read%20package.json%20and%20update%20version'%22,%22Step%203:%20LLM%20invokes%20register_tools(%5B'read_file',%20'write_file'%5D)",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "1bea72",
+        "hash": "64709b59",
+        "encoded": "Step%204:%20Response:%20%7Bstatus:%20'success',%20message:%20'Tools%20registered'%7D",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "1bea72",
+        "hash": "52c9e2a3",
+        "encoded": "Step%205:%20Full%20schemas%20for%20read_file%20and%20write_file%20are%20present%20in%20next%20turn",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "1bea72",
+        "hash": "de13bee9",
+        "encoded": "Step%206:%20Both%20tools%20execute%20without%20'tool%20not%20found'%20error%22,%22Not%20Started%22,%22P1%22,%22Lazy%20Tool%20Registry%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "1bea72",
+        "hash": "11d34fd5",
+        "encoded": "%22TC003:%20Verify%20Registration%20State%20Reset%20on%20New%20User%20Message%22,%22Validate%20that%20registered%20tools%20from%20a%20previous%20message%20are%20not%20automatically%20available%20in%20a%20new%20user%20message%22,%22Step%201:%20Enable%20lazy%20tool%20registry",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "1bea72",
+        "hash": "83b7bbb3",
+        "encoded": "Step%202:%20Send%20first%20user%20message%20requiring%20read_file%20tool",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "1bea72",
+        "hash": "9f3c8240",
+        "encoded": "Step%203:%20LLM%20registers%20and%20uses%20read_file%20successfully",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "1bea72",
+        "hash": "0075fa2a",
+        "encoded": "Step%204:%20Complete%20the%20first%20message/turn",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "1bea72",
+        "hash": "651ffff8",
+        "encoded": "Step%205:%20Send%20a%20second%20user%20message%20requiring%20read_file%20again",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "1bea72",
+        "hash": "6d394b98",
+        "encoded": "Step%206:%20Verify%20LLM%20must%20re-register%20read_file%20before%20use",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "1bea72",
+        "hash": "46a7f994",
+        "encoded": "Step%207:%20Confirm%20tool%20is%20not%20available%20without%20re-registration%22,%22First%20Message:%20'Read%20config.json'",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "1bea72",
+        "hash": "74cfc529",
+        "encoded": "Second%20Message:%20'Read%20settings.json'%22,%22Step%203:%20read_file%20works%20in%20first%20message%20after%20registration",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "1bea72",
+        "hash": "f928610f",
+        "encoded": "Step%204:%20First%20turn%20completes%20successfully",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "1bea72",
+        "hash": "f5f9f1b6",
+        "encoded": "Step%206:%20LLM%20calls%20register_tools(%5B'read_file'%5D)%20again",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "1bea72",
+        "hash": "bc16d2e6",
+        "encoded": "Step%207:%20Attempting%20to%20use%20read_file%20without%20re-registration%20results%20in%20error%22,%22Not%20Started%22,%22P1%22,%22Lazy%20Tool%20Registry%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "1bea72",
+        "hash": "3566e5af",
+        "encoded": "%22TC004:%20Verify%20Invalid%20Tool%20Name%20Validation%20in%20Register%20Tools%22,%22Test%20that%20register_tools%20rejects%20invalid%20or%20non-existent%20tool%20names%20with%20appropriate%20error%20message%22,%22Step%201:%20Enable%20lazy%20tool%20registry",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "1bea72",
+        "hash": "1c9ea13f",
+        "encoded": "Step%202:%20Attempt%20to%20call%20register_tools%20with%20an%20invalid%20tool%20name%20not%20in%20catalog",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "1bea72",
+        "hash": "47ce99aa",
+        "encoded": "Step%203:%20Observe%20the%20response%20from%20register_tools",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "1bea72",
+        "hash": "5f9c2223",
+        "encoded": "Step%204:%20Verify%20error%20message%20indicates%20unknown%20tool%20name",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "1bea72",
+        "hash": "ee39b9eb",
+        "encoded": "Step%205:%20Confirm%20no%20tools%20are%20registered%20when%20validation%20fails%22,%22Invalid%20Tool%20Names:%20%5B'fake_tool',%20'non_existent_tool'%5D%22,%22Step%203:%20register_tools%20is%20invoked%20with%20invalid%20names",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "1bea72",
+        "hash": "2e24ddcb",
+        "encoded": "Step%204:%20Response%20contains%20error:%20'Unknown%20tool%20name(s):%20fake_tool,%20non_existent_tool'",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "1bea72",
+        "hash": "1ecccc85",
+        "encoded": "Step%205:%20Tool%20schemas%20are%20not%20added%20to%20available%20tools%20list%22,%22Not%20Started%22,%22P2%22,%22Lazy%20Tool%20Registry%22,%22Functional%22,%22Negative%22",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "1bea72",
+        "hash": "14a612a8",
+        "encoded": "%22TC005:%20Verify%20Always-On%20Tools%20Available%20Without%20Registration%22,%22Ensure%20that%20always-on%20tools%20(e.g.,%20request_user_input)%20are%20available%20without%20calling%20register_tools%22,%22Step%201:%20Enable%20lazy%20tool%20registry",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "1bea72",
+        "hash": "1a324a29",
+        "encoded": "Step%202:%20Identify%20the%20always-on%20tools%20list%20(e.g.,%20request_user_input)",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "1bea72",
+        "hash": "df92a70d",
+        "encoded": "Step%203:%20Send%20a%20user%20message%20that%20requires%20an%20always-on%20tool",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "1bea72",
+        "hash": "a0c89ffb",
+        "encoded": "Step%204:%20Verify%20LLM%20can%20call%20the%20always-on%20tool%20directly%20without%20registration",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "1bea72",
+        "hash": "37cbdda9",
+        "encoded": "Step%205:%20Confirm%20always-on%20tools%20are%20NOT%20listed%20in%20%3Ctool_catalog%3E%20block%22,%22Always-On%20Tool:%20request_user_input",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "1bea72",
+        "hash": "d161f693",
+        "encoded": "User%20Message:%20'Ask%20me%20which%20file%20to%20update'%22,%22Step%204:%20LLM%20calls%20request_user_input%20directly%20without%20calling%20register_tools%20first",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "1bea72",
+        "hash": "8621de4f",
+        "encoded": "Step%205:%20%3Ctool_catalog%3E%20does%20not%20contain%20request_user_input",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "1bea72",
+        "hash": "660601ad",
+        "encoded": "Tool%20executes%20successfully%22,%22Not%20Started%22,%22P1%22,%22Lazy%20Tool%20Registry%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "1bea72",
+        "hash": "e162d649",
+        "encoded": "%22TC006:%20Verify%20Remote%20Kill-Switch%20Overrides%20Local%20Setting%22,%22Test%20that%20setting%20remote%20flag%20to%20false%20disables%20lazy%20tool%20registry%20regardless%20of%20local%20setting%22,%22Step%201:%20Set%20local%20IDE%20setting%20to%20ON",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "1bea72",
+        "hash": "6826a245",
+        "encoded": "Step%202:%20Set%20remote%20config%20flag%20to%20false%20(kill-switch%20activated)",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "1bea72",
+        "hash": "34cdd141",
+        "encoded": "Step%203:%20Send%20a%20user%20message%20to%20the%20local%20agent",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "1bea72",
+        "hash": "8c1435c4",
+        "encoded": "Step%204:%20Inspect%20system%20prompt%20sent%20to%20LLM",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "1bea72",
+        "hash": "81fc5538",
+        "encoded": "Step%205:%20Verify%20full%20tool%20schemas%20are%20sent%20(legacy%20behavior)",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "1bea72",
+        "hash": "32101b43",
+        "encoded": "Step%206:%20Confirm%20%3Ctool_catalog%3E%20block%20is%20NOT%20present",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "1bea72",
+        "hash": "f964532a",
+        "encoded": "Step%207:%20Verify%20register_tools%20is%20NOT%20available%22,%22Local%20Setting:%20ON",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "1bea72",
+        "hash": "75ac857c",
+        "encoded": "Remote%20Flag:%20false%22,%22Step%204:%20System%20prompt%20contains%20full%20tool%20schemas",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "1bea72",
+        "hash": "0279a87b",
+        "encoded": "Step%205:%20All%20tools%20are%20immediately%20available%20without%20registration",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "1bea72",
+        "hash": "a05d86eb",
+        "encoded": "Step%206:%20No%20%3Ctool_catalog%3E%20block%20in%20system%20prompt",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "1bea72",
+        "hash": "468d0c7e",
+        "encoded": "Step%207:%20register_tools%20tool%20is%20not%20in%20the%20available%20tools%20list%22,%22Not%20Started%22,%22P1%22,%22Lazy%20Tool%20Registry%22,%22Functional%22,%22Negative%22",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "1bea72",
+        "hash": "6654fef9",
+        "encoded": "%22TC007:%20Verify%20Feature%20Disabled%20When%20Local%20Setting%20is%20OFF%22,%22Validate%20that%20lazy%20tool%20registry%20is%20disabled%20when%20local%20IDE%20setting%20is%20OFF,%20regardless%20of%20remote%20flag%22,%22Step%201:%20Set%20local%20IDE%20setting%20to%20OFF",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "1bea72",
+        "hash": "e5cd5f84",
+        "encoded": "Step%202:%20Set%20remote%20config%20flag%20to%20true",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "1bea72",
+        "hash": "7153db27",
+        "encoded": "Step%203:%20Send%20a%20user%20message",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "1bea72",
+        "hash": "5ce85bfb",
+        "encoded": "Step%204:%20Verify%20system%20prompt%20contains%20full%20tool%20schemas",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "1bea72",
+        "hash": "701d2d1b",
+        "encoded": "Step%205:%20Confirm%20lazy%20loading%20is%20not%20active%22,%22Local%20Setting:%20OFF",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "1bea72",
+        "hash": "aab270a5",
+        "encoded": "Remote%20Flag:%20true%22,%22Step%204:%20Full%20tool%20schemas%20present%20in%20system%20prompt",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "1bea72",
+        "hash": "9e032290",
+        "encoded": "Step%205:%20%3Ctool_catalog%3E%20block%20absent,%20all%20tools%20immediately%20available%22,%22Not%20Started%22,%22P2%22,%22Lazy%20Tool%20Registry%22,%22Functional%22,%22Negative%22",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "1bea72",
+        "hash": "37783721",
+        "encoded": "%22TC008:%20Verify%20Fail-Open%20Default%20When%20Remote%20Flag%20is%20Absent%22,%22Test%20that%20when%20remote%20flag%20is%20not%20provided%20by%20config%20server,%20the%20local%20setting%20governs%20the%20feature%22,%22Step%201:%20Set%20local%20IDE%20setting%20to%20ON",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "1bea72",
+        "hash": "4fcc26ca",
+        "encoded": "Step%202:%20Ensure%20remote%20config%20flag%20is%20absent/not%20sent%20by%20server",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "1bea72",
+        "hash": "f3be4942",
+        "encoded": "Step%203:%20Send%20a%20user%20message",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "1bea72",
+        "hash": "6e1520f1",
+        "encoded": "Step%204:%20Verify%20lazy%20tool%20registry%20is%20active%20(fail-open%20default)",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "1bea72",
+        "hash": "6e2b70b3",
+        "encoded": "Step%205:%20Confirm%20%3Ctool_catalog%3E%20block%20is%20present%22,%22Local%20Setting:%20ON",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "1bea72",
+        "hash": "e6a36bc2",
+        "encoded": "Remote%20Flag:%20undefined/absent%22,%22Step%204:%20Lazy%20mode%20is%20enabled%20based%20on%20local%20setting",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "1bea72",
+        "hash": "7b7d1076",
+        "encoded": "Step%205:%20%3Ctool_catalog%3E%20block%20present,%20register_tools%20available%22,%22Not%20Started%22,%22P1%22,%22Lazy%20Tool%20Registry%22,%22Functional%22,%22Edge%20Case%22",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "1bea72",
+        "hash": "da7c3370",
+        "encoded": "%22TC009:%20Verify%20No%20Regression%20When%20Feature%20is%20Fully%20Disabled%22,%22Ensure%20that%20existing%20tool-calling%20behavior%20remains%20unchanged%20when%20both%20flags%20disable%20the%20feature%22,%22Step%201:%20Set%20local%20IDE%20setting%20to%20OFF",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "1bea72",
+        "hash": "21b67217",
+        "encoded": "Step%202:%20Set%20remote%20config%20flag%20to%20false",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "1bea72",
+        "hash": "77af9931",
+        "encoded": "Step%203:%20Send%20multiple%20user%20messages%20with%20various%20tool%20requirements",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "1bea72",
+        "hash": "49fa89b1",
+        "encoded": "Step%204:%20Compare%20system%20prompt%20and%20tool%20availability%20with%20pre-feature%20baseline",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "1bea72",
+        "hash": "138bb828",
+        "encoded": "Step%205:%20Verify%20byte-for-byte%20identical%20behavior%22,%22Local%20Setting:%20OFF",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "1bea72",
+        "hash": "56278dfa",
+        "encoded": "Remote%20Flag:%20false",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "1bea72",
+        "hash": "bf81a73e",
+        "encoded": "Test%20Messages:%20Various%20tool-using%20scenarios%22,%22Step%204:%20System%20prompt%20matches%20original%20format%20exactly",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "1bea72",
+        "hash": "c4723c1a",
+        "encoded": "Step%205:%20All%20tools%20available%20immediately,%20no%20registration%20step,%20behavior%20identical%20to%20pre-feature%20state%22,%22Not%20Started%22,%22P1%22,%22Lazy%20Tool%20Registry%22,%22Functional%22,%22Negative%22",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "1bea72",
+        "hash": "6403ab1c",
+        "encoded": "%22TC010:%20Verify%20Conversational%20Messages%20Skip%20Tool%20Registration%22,%22Test%20that%20purely%20conversational%20messages%20(greetings,%20simple%20questions)%20work%20without%20any%20tool%20calls%22,%22Step%201:%20Enable%20lazy%20tool%20registry",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "1bea72",
+        "hash": "4b61c21d",
+        "encoded": "Step%202:%20Send%20a%20simple%20greeting%20message:%20'Hello'",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "1bea72",
+        "hash": "eb46d774",
+        "encoded": "Step%203:%20Verify%20LLM%20responds%20directly%20without%20calling%20any%20tools",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "1bea72",
+        "hash": "97612d16",
+        "encoded": "Step%204:%20Confirm%20no%20register_tools%20call%20is%20made",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "1bea72",
+        "hash": "e60c9fd9",
+        "encoded": "Step%205:%20Validate%20response%20is%20appropriate%20and%20conversational%22,%22User%20Message:%20'Hello'%20or%20'Hi%20Slingshot'%20or%20'How%20are%20you?'%22,%22Step%203:%20LLM%20generates%20conversational%20response%20without%20tool%20calls",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "1bea72",
+        "hash": "0672e6bb",
+        "encoded": "Step%204:%20No%20register_tools%20invocation%20in%20the%20turn",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "1bea72",
+        "hash": "380e530f",
+        "encoded": "Step%205:%20Response%20is%20friendly%20and%20asks%20how%20to%20assist%22,%22Not%20Started%22,%22P2%22,%22Lazy%20Tool%20Registry%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "1bea72",
+        "hash": "6f20fe0f",
+        "encoded": "%22TC011:%20Verify%20System%20Prompt%20Final%20Reminder%20Block%20Position%22,%22Validate%20that%20the%20final%20reminder%20about%20re-registration%20is%20positioned%20at%20the%20very%20end%20of%20the%20system%20prompt%22,%22Step%201:%20Enable%20lazy%20tool%20registry",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "1bea72",
+        "hash": "c81db012",
+        "encoded": "Step%202:%20Retrieve%20the%20complete%20system%20prompt",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "1bea72",
+        "hash": "a8f1f0da",
+        "encoded": "Step%203:%20Locate%20the%20final%20reminder%20block%20about%20'new%20message%20=%20re-register'",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "1bea72",
+        "hash": "36bedfd5",
+        "encoded": "Step%204:%20Verify%20it%20appears%20after%20the%20%3Ctool_catalog%3E%20block",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "1bea72",
+        "hash": "b2c247fd",
+        "encoded": "Step%205:%20Confirm%20it's%20the%20last%20instructional%20block%20in%20the%20prompt%22,%22Feature%20Enabled:%20true%22,%22Step%203:%20Final%20reminder%20block%20found",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "1bea72",
+        "hash": "18032366",
+        "encoded": "Step%204:%20Reminder%20is%20positioned%20after%20%3Ctool_catalog%3E",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "1bea72",
+        "hash": "9d351afe",
+        "encoded": "Step%205:%20No%20other%20instruction%20blocks%20appear%20after%20the%20reminder%22,%22Not%20Started%22,%22P2%22,%22Lazy%20Tool%20Registry%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "1bea72",
+        "hash": "925d6201",
+        "encoded": "%22TC012:%20Verify%20Catalog%20Generation%20is%20Context-Free%20and%20Reusable%22,%22Test%20that%20the%20tool%20catalog%20generation%20logic%20is%20a%20shared%20function%20and%20can%20be%20called%20without%20session-specific%20context%22,%22Step%201:%20Review%20code%20for%20catalog%20generation%20function",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "1bea72",
+        "hash": "1b0c295f",
+        "encoded": "Step%202:%20Verify%20it's%20exported%20as%20a%20single%20shared%20function",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "1bea72",
+        "hash": "cd79990c",
+        "encoded": "Step%203:%20Confirm%20function%20doesn't%20require%20request/session-specific%20parameters",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "1bea72",
+        "hash": "23d23b2c",
+        "encoded": "Step%204:%20Test%20calling%20the%20function%20multiple%20times",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "1bea72",
+        "hash": "516d4b71",
+        "encoded": "Step%205:%20Verify%20output%20is%20consistent%20and%20contains%20all%20available%20tools%22,%22Function%20Name:%20generateToolCatalog%20(or%20similar)",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "1bea72",
+        "hash": "fa8fbadb",
+        "encoded": "No%20session%20context%20required%22,%22Step%202:%20Function%20is%20properly%20exported%20and%20reusable",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "1bea72",
+        "hash": "2ae91f42",
+        "encoded": "Step%203:%20Function%20signature%20has%20no%20session/request%20parameters",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "1bea72",
+        "hash": "6faf6d9c",
+        "encoded": "Step%204:%20Multiple%20calls%20return%20identical%20output",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "1bea72",
+        "hash": "aa087452",
+        "encoded": "Step%205:%20Output%20includes%20all%20tools%20with%20name,%20description,%20category%22,%22Not%20Started%22,%22P2%22,%22Lazy%20Tool%20Registry%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "1bea72",
+        "hash": "4903362c",
+        "encoded": "%22TC013:%20Verify%20Register%20Tools%20with%20Empty%20Array%20Handling%22,%22Test%20edge%20case%20where%20register_tools%20is%20called%20with%20an%20empty%20array%22,%22Step%201:%20Enable%20lazy%20tool%20registry",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "1bea72",
+        "hash": "46eda22b",
+        "encoded": "Step%202:%20Call%20register_tools%20with%20empty%20array:%20%5B%5D",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "1bea72",
+        "hash": "5d6ea341",
+        "encoded": "Step%203:%20Observe%20the%20response",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "1bea72",
+        "hash": "274e1964",
+        "encoded": "Step%204:%20Verify%20no%20tools%20are%20registered",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "1bea72",
+        "hash": "eb8e69e2",
+        "encoded": "Step%205:%20Confirm%20appropriate%20handling%20(no%20error%20or%20informational%20message)%22,%22Tool%20Names:%20%5B%5D%22,%22Step%203:%20Response%20indicates%20no%20tools%20to%20register%20or%20success%20with%20no%20changes",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "1bea72",
+        "hash": "d1b84bcc",
+        "encoded": "Step%204:%20No%20new%20tools%20added%20to%20available%20tools",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "1bea72",
+        "hash": "0ed37639",
+        "encoded": "Step%205:%20No%20runtime%20errors,%20graceful%20handling%22,%22Not%20Started%22,%22P3%22,%22Lazy%20Tool%20Registry%22,%22Functional%22,%22Edge%20Case%22",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "1bea72",
+        "hash": "1d815f0d",
+        "encoded": "%22TC014:%20Verify%20Multiple%20Tool%20Registration%20in%20Single%20Call%22,%22Test%20that%20register_tools%20can%20handle%20multiple%20tool%20names%20in%20a%20single%20invocation%22,%22Step%201:%20Enable%20lazy%20tool%20registry",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "1bea72",
+        "hash": "06b6ecdb",
+        "encoded": "Step%202:%20Call%20register_tools%20with%20multiple%20valid%20tool%20names",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "1bea72",
+        "hash": "91d1e46d",
+        "encoded": "Step%203:%20Verify%20success%20response%20for%20all%20tools",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "1bea72",
+        "hash": "51299014",
+        "encoded": "Step%204:%20Confirm%20all%20requested%20tools%20are%20available%20in%20next%20turn",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "1bea72",
+        "hash": "ba51d142",
+        "encoded": "Step%205:%20Test%20each%20registered%20tool%20executes%20correctly%22,%22Tool%20Names:%20%5B'read_file',%20'write_file',%20'edit_file',%20'get_workspace_files_list'%5D%22,%22Step%203:%20Response:%20%7Bstatus:%20'success'%7D%20for%20all%204%20tools",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "1bea72",
+        "hash": "2e058b6b",
+        "encoded": "Step%204:%20All%204%20tools'%20full%20schemas%20present%20in%20next%20turn",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "1bea72",
+        "hash": "bb1d2288",
+        "encoded": "Step%205:%20Each%20tool%20can%20be%20called%20successfully%20without%20errors%22,%22Not%20Started%22,%22P2%22,%22Lazy%20Tool%20Registry%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "1bea72",
+        "hash": "be2a330f",
+        "encoded": "%22TC015:%20Verify%20Flags%20are%20Read%20Fresh%20on%20Every%20Check%20(No%20Caching)%22,%22Test%20that%20both%20local%20and%20remote%20flags%20are%20read%20fresh%20on%20each%20system%20prompt%20build,%20not%20cached%20at%20startup%22,%22Step%201:%20Start%20agent%20with%20both%20flags%20enabled%20(lazy%20mode%20ON)",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "1bea72",
+        "hash": "46f0b1ff",
+        "encoded": "Step%202:%20Send%20a%20message%20and%20verify%20lazy%20mode%20is%20active",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "1bea72",
+        "hash": "6cc656e8",
+        "encoded": "Step%203:%20Change%20remote%20flag%20to%20false%20without%20restarting%20IDE/process",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "1bea72",
+        "hash": "3d71b05d",
+        "encoded": "Step%204:%20Send%20another%20message%20immediately",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "1bea72",
+        "hash": "c7c9fd70",
+        "encoded": "Step%205:%20Verify%20lazy%20mode%20is%20now%20disabled%20without%20restart",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "1bea72",
+        "hash": "423087e6",
+        "encoded": "Step%206:%20Toggle%20local%20setting%20and%20verify%20immediate%20effect%22,%22Initial:%20Local%20ON,%20Remote%20true",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "1bea72",
+        "hash": "30794c48",
+        "encoded": "Change:%20Remote%20flag%20to%20false%20(runtime)",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "1bea72",
+        "hash": "4c3b3cb8",
+        "encoded": "Change:%20Local%20setting%20to%20OFF%20(runtime)%22,%22Step%202:%20Lazy%20mode%20active%20(%3Ctool_catalog%3E%20present)",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "1bea72",
+        "hash": "abc042a2",
+        "encoded": "Step%205:%20Lazy%20mode%20disabled%20(full%20schemas%20sent)%20without%20restart",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "1bea72",
+        "hash": "b91bdfef",
+        "encoded": "Step%206:%20Changes%20to%20local%20setting%20take%20effect%20immediately%22,%22Not%20Started%22,%22P1%22,%22Lazy%20Tool%20Registry%22,%22Functional%22,%22Edge%20Case%22",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

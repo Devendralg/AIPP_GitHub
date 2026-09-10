@@ -27,7 +27,7 @@ Test Script (Step-by-Step) - Expected Result
 Status
 Priority
 Component
-Test Type (Positive/Negative/Edge)
+Test Type
 Test Method
 
 ## Output

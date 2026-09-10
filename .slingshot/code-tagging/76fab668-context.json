@@ -6,6 +6,9 @@
   "promptMessage": {
     "a05997a8": {
       "value": "understand current workspace and genereate prompt"
+    },
+    "7f0fb3c4": {
+      "value": "could you provide me a test prompt for tool output campaction testing it should fetch more than 1 lakh characters then only compaction will happen so understand the workspace and provide me a prompt"
     }
   },
   "localPrompts": {},

@@ -6,6 +6,12 @@
   "promptMessage": {
     "e519fffc": {
       "value": "changing branch commands"
+    },
+    "f667a9e4": {
+      "value": "how to push to mybranch"
+    },
+    "283964fb": {
+      "value": "understand my workspace and give me appropriate prompts for above"
     }
   },
   "localPrompts": {},

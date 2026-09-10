@@ -1,0 +1,20 @@
+{
+  "filename": "SLIN-77267_TestCases.csv",
+  "path": "testcase\\SLIN-77267_TestCases.csv",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "dad669ab": {
+      "value": "Write 15 test cases for this jira story https://publicisbodhi.atlassian.net/browse/SLIN-77267 by following local prompt testcasewriting format those should be executable and add created file in testcase folder from workspace and test cases should easy understable as QE need to verify"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {
+    "4d927765": {
+      "source": "agent",
+      "issueKey": "SLIN-77267"
+    }
+  }
+}

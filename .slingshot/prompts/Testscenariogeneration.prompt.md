@@ -65,10 +65,10 @@ Generate a CSV file with the following structure:
 
 ## Quality Checklist
 - [ ] All acceptance criteria covered with functional scenarios
-- [ ] Positive scenarios for all happy paths included
-- [ ] Negative scenarios for all error conditions included
-- [ ] Edge cases for boundary conditions specified
-- [ ] Each scenario clearly categorized (Positive/Negative/Edge)
+- [ ] Group all Positive scenarios for all happy paths included
+- [ ] Group all Negative scenarios for all error conditions included
+- [ ] Group all Edge cases for boundary conditions specified
+- [ ] Each scenario group clearly categorized (Positive/Negative/Edge)
 - [ ] Assignee clearly identified
 - [ ] No performance, integration, or non-functional scenarios included
 

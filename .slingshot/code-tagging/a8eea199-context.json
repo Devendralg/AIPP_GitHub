@@ -1,0 +1,21 @@
+{
+  "filename": "App.test.js",
+  "path": "client\\src\\__tests__\\App.test.js",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "283964fb": {
+      "value": "understand my workspace and give me appropriate prompts for above"
+    },
+    "c6bedfb4": {
+      "value": "what are these features and how to test them give me a appropriate test prompt for this workspace\n\"Run Terminal Command ,Get Available Terminals\""
+    },
+    "407ccc51": {
+      "value": "now do the same for these features as well like above\n\"List Prompts , Search Prompts ,  Get Prompt Details\""
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

@@ -1,0 +1,913 @@
+{
+  "testcase\\SLIN-77357_TestCases.csv": {
+    "filename": "SLIN-77357_TestCases.csv",
+    "path": "testcase\\SLIN-77357_TestCases.csv",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "9cb8dc": {
+        "user": "Devendrappa .",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1789023925,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.3.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "jira": "e495043b",
+          "promptMessage": "c9c586f6"
+        },
+        "hash": "17161d91",
+        "messageId": "system_a1ffa510-ace5-11f1-9090-ff3958a82091",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendrappa .\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/10/2026, 12:35:25 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "9cb8dc",
+        "hash": "0b58e2dc",
+        "encoded": "Name,Objective,Test%20Script%20(Step-by-Step)%20-%20Step,Test%20Script%20(Step-by-Step)%20-%20Test%20Data,Test%20Script%20(Step-by-Step)%20-%20Expected%20Result,Status,Priority,Component,Test%20Type,Test%20Method",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "9cb8dc",
+        "hash": "f7c0941b",
+        "encoded": "%22TC_77357_01:%20Verify%20Token%20Tracking%20for%20Main%20Agent%20LLM%20Calls%22,%22Verify%20that%20token%20usage%20from%20main%20agent%20LLM%20calls%20is%20accurately%20tracked%20and%20displayed%20in%20the%20UI%22,%22Step%201:%20Open%20Slingshot%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "9cb8dc",
+        "hash": "8b1a9a5e",
+        "encoded": "Step%202:%20Initiate%20a%20conversation%20with%20the%20agent",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "9cb8dc",
+        "hash": "aeef3aff",
+        "encoded": "Step%203:%20Send%20a%20simple%20query%20that%20triggers%20main%20agent%20LLM%20call",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "9cb8dc",
+        "hash": "f4c317cb",
+        "encoded": "Step%204:%20Observe%20the%20token%20usage%20UI",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "9cb8dc",
+        "hash": "38567474",
+        "encoded": "Step%205:%20Verify%20the%20token%20count%20is%20displayed%22,%22Query:%20'What%20is%20the%20current%20date?'%22,%22Step%201:%20Plugin%20opens%20successfully",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "9cb8dc",
+        "hash": "b543ab32",
+        "encoded": "Step%202:%20Conversation%20interface%20is%20ready",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "9cb8dc",
+        "hash": "0ed383cf",
+        "encoded": "Step%203:%20Agent%20responds%20to%20the%20query",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "9cb8dc",
+        "hash": "a0c7884e",
+        "encoded": "Step%204:%20Token%20usage%20UI%20is%20visible",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "9cb8dc",
+        "hash": "c5180411",
+        "encoded": "Step%205:%20Token%20count%20shows%20non-zero%20value%20for%20input%20and%20output%20tokens%22,%22Not%20Started%22,%22High%22,%22Token%20Tracking%20-%20UI%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "9cb8dc",
+        "hash": "301dc6d3",
+        "encoded": "%22TC_77357_02:%20Verify%20Token%20Tracking%20for%20Tool%20Output%20Compaction%22,%22Verify%20that%20token%20usage%20from%20secondary%20LLM%20calls%20triggered%20by%20tool%20output%20compaction%20is%20tracked%20and%20added%20to%20total%20usage%22,%22Step%201:%20Open%20Slingshot%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "9cb8dc",
+        "hash": "ee3b5d46",
+        "encoded": "Step%202:%20Send%20a%20query%20that%20triggers%20tool%20execution%20with%20large%20output",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "9cb8dc",
+        "hash": "22bfe793",
+        "encoded": "Step%203:%20Observe%20when%20tool%20output%20compaction%20occurs",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "9cb8dc",
+        "hash": "c402d226",
+        "encoded": "Step%204:%20Check%20the%20token%20usage%20UI%20before%20and%20after%20compaction",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "9cb8dc",
+        "hash": "d386543b",
+        "encoded": "Step%205:%20Verify%20total%20token%20count%20increases%20after%20compaction%22,%22Query:%20'List%20all%20files%20in%20the%20workspace%20with%20detailed%20analysis'%22,%22Step%201:%20Plugin%20opens%20successfully",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "9cb8dc",
+        "hash": "d2669610",
+        "encoded": "Step%202:%20Tool%20executes%20and%20returns%20large%20output",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "9cb8dc",
+        "hash": "5ebb811f",
+        "encoded": "Step%203:%20Compaction%20is%20triggered%20automatically",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "9cb8dc",
+        "hash": "40a1f617",
+        "encoded": "Step%204:%20Token%20usage%20UI%20shows%20incremental%20update",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "9cb8dc",
+        "hash": "1b9c5f37",
+        "encoded": "Step%205:%20Total%20token%20count%20reflects%20both%20main%20call%20and%20compaction%20LLM%20tokens%22,%22Not%20Started%22,%22High%22,%22Token%20Tracking%20-%20Compaction%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "9cb8dc",
+        "hash": "13c2140a",
+        "encoded": "%22TC_77357_03:%20Verify%20Token%20Tracking%20for%20Manual%20Compaction%22,%22Verify%20that%20token%20usage%20from%20secondary%20LLM%20calls%20triggered%20by%20manual%20compaction%20is%20tracked%20and%20aggregated%20correctly%22,%22Step%201:%20Open%20Slingshot%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "9cb8dc",
+        "hash": "8318b679",
+        "encoded": "Step%202:%20Execute%20a%20query%20that%20generates%20large%20content",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "9cb8dc",
+        "hash": "ea03df48",
+        "encoded": "Step%203:%20Manually%20trigger%20compaction%20option",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "9cb8dc",
+        "hash": "563dd429",
+        "encoded": "Step%204:%20Observe%20token%20usage%20UI%20update",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "9cb8dc",
+        "hash": "15f29664",
+        "encoded": "Step%205:%20Verify%20manual%20compaction%20tokens%20are%20added%20to%20total%22,%22Query:%20'Read%20multiple%20large%20files%20and%20analyze'",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "9cb8dc",
+        "hash": "9ad2478e",
+        "encoded": "Manual%20Action:%20Click%20on%20manual%20compaction%20option%22,%22Step%201:%20Plugin%20opens%20successfully",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "9cb8dc",
+        "hash": "f0fa62b8",
+        "encoded": "Step%202:%20Large%20content%20is%20generated",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "9cb8dc",
+        "hash": "2943e60f",
+        "encoded": "Step%203:%20Manual%20compaction%20executes%20successfully",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "9cb8dc",
+        "hash": "47822e44",
+        "encoded": "Step%204:%20Token%20usage%20UI%20updates%20in%20real-time",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "9cb8dc",
+        "hash": "c396e8f9",
+        "encoded": "Step%205:%20Total%20token%20usage%20includes%20manual%20compaction%20LLM%20call%20tokens%22,%22Not%20Started%22,%22High%22,%22Token%20Tracking%20-%20Manual%20Compaction%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "9cb8dc",
+        "hash": "038e77bf",
+        "encoded": "%22TC_77357_04:%20Verify%20No%20Double-Counting%20of%20Secondary%20LLM%20Usage%22,%22Verify%20that%20secondary%20LLM%20calls%20are%20counted%20only%20once%20and%20not%20duplicated%20in%20the%20total%20token%20usage%22,%22Step%201:%20Open%20Slingshot%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "9cb8dc",
+        "hash": "e88225dc",
+        "encoded": "Step%202:%20Trigger%20multiple%20tool%20calls%20with%20compaction",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "9cb8dc",
+        "hash": "1e27d7d1",
+        "encoded": "Step%203:%20Note%20the%20token%20count%20after%20first%20compaction",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "9cb8dc",
+        "hash": "67b160b9",
+        "encoded": "Step%204:%20Trigger%20another%20compaction%20event",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "9cb8dc",
+        "hash": "74f92686",
+        "encoded": "Step%205:%20Verify%20each%20compaction%20is%20counted%20only%20once%22,%22Query%201:%20'Analyze%20all%20Java%20files'",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "9cb8dc",
+        "hash": "6bca1616",
+        "encoded": "Query%202:%20'Search%20for%20patterns%20in%20the%20codebase'%22,%22Step%201:%20Plugin%20opens%20successfully",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "9cb8dc",
+        "hash": "bdfb6dcf",
+        "encoded": "Step%202:%20Tool%20calls%20execute%20with%20compaction",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "9cb8dc",
+        "hash": "ca35918f",
+        "encoded": "Step%203:%20Token%20count%20recorded:%20X%20tokens",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "9cb8dc",
+        "hash": "44c13b1c",
+        "encoded": "Step%204:%20Second%20compaction%20occurs",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "9cb8dc",
+        "hash": "2ff38b1c",
+        "encoded": "Step%205:%20Total%20tokens%20=%20X%20+%20Y%20(new%20compaction),%20not%20duplicated%22,%22Not%20Started%22,%22High%22,%22Token%20Tracking%20-%20Validation%22,%22Functional%22,%22Negative%22",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "9cb8dc",
+        "hash": "2098c26b",
+        "encoded": "%22TC_77357_05:%20Verify%20Token%20Usage%20Accuracy%20Across%20Multiple%20Compaction%20Events%22,%22Verify%20that%20token%20usage%20remains%20accurate%20when%20multiple%20compaction%20events%20occur%20within%20the%20same%20session%22,%22Step%201:%20Open%20Slingshot%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "9cb8dc",
+        "hash": "372521ea",
+        "encoded": "Step%202:%20Execute%20query%20requiring%20multiple%20compactions",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "9cb8dc",
+        "hash": "cf61c8f1",
+        "encoded": "Step%203:%20Monitor%20token%20usage%20after%20each%20compaction",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "9cb8dc",
+        "hash": "c72804dc",
+        "encoded": "Step%204:%20Complete%20the%20session%20with%203+%20compaction%20events",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "9cb8dc",
+        "hash": "fdf17d8e",
+        "encoded": "Step%205:%20Verify%20final%20total%20is%20sum%20of%20all%20individual%20calls%22,%22Query:%20'Perform%20comprehensive%20codebase%20analysis%20with%20multiple%20large%20file%20reads'",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "9cb8dc",
+        "hash": "ad0f1e59",
+        "encoded": "Expected%20Compactions:%203-5%20events%22,%22Step%201:%20Plugin%20opens%20successfully",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "9cb8dc",
+        "hash": "e8b55819",
+        "encoded": "Step%202:%20Query%20triggers%20multiple%20compactions",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "9cb8dc",
+        "hash": "6789a3ca",
+        "encoded": "Step%203:%20Token%20count%20increments%20after%20each%20compaction",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "9cb8dc",
+        "hash": "ea480d6f",
+        "encoded": "Step%204:%20All%20compaction%20events%20complete",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "9cb8dc",
+        "hash": "cf71cb65",
+        "encoded": "Step%205:%20Total%20tokens%20=%20Main%20call%20+%20Compaction1%20+%20Compaction2%20+%20Compaction3...%22,%22Not%20Started%22,%22High%22,%22Token%20Tracking%20-%20Multi-Event%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "9cb8dc",
+        "hash": "e17eae29",
+        "encoded": "%22TC_77357_06:%20Verify%20Token%20Usage%20Display%20in%20UI%22,%22Verify%20that%20the%20UI%20clearly%20displays%20the%20updated%20total%20token%20consumption%20including%20all%20LLM%20calls%22,%22Step%201:%20Open%20Slingshot%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "9cb8dc",
+        "hash": "57e3298b",
+        "encoded": "Step%202:%20Execute%20a%20simple%20query",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "9cb8dc",
+        "hash": "609548bf",
+        "encoded": "Step%203:%20Locate%20token%20usage%20display%20in%20UI",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "9cb8dc",
+        "hash": "80a21236",
+        "encoded": "Step%204:%20Verify%20display%20shows%20input%20tokens,%20output%20tokens,%20and%20total",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "9cb8dc",
+        "hash": "8c0c2748",
+        "encoded": "Step%205:%20Verify%20values%20are%20readable%20and%20formatted%20correctly%22,%22Query:%20'Help%20me%20understand%20this%20code'%22,%22Step%201:%20Plugin%20opens%20successfully",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "9cb8dc",
+        "hash": "61cdc49b",
+        "encoded": "Step%202:%20Query%20executes%20successfully",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "9cb8dc",
+        "hash": "6c1f3cf7",
+        "encoded": "Step%203:%20Token%20usage%20section%20is%20visible%20in%20UI",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "9cb8dc",
+        "hash": "836b0f14",
+        "encoded": "Step%204:%20Display%20shows:%20Input%20tokens:%20X,%20Output%20tokens:%20Y,%20Total:%20Z",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "9cb8dc",
+        "hash": "96293756",
+        "encoded": "Step%205:%20Values%20are%20numeric%20and%20properly%20formatted%22,%22Not%20Started%22,%22Medium%22,%22Token%20Tracking%20-%20UI%20Display%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "9cb8dc",
+        "hash": "6a88cc6f",
+        "encoded": "%22TC_77357_07:%20Verify%20Token%20Tracking%20for%20Other%20Agent-Initiated%20LLM%20Calls%22,%22Verify%20that%20token%20usage%20from%20other%20agent-initiated%20LLM%20calls%20is%20tracked%20and%20included%20in%20total%20usage%22,%22Step%201:%20Open%20Slingshot%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "9cb8dc",
+        "hash": "b46c0d7a",
+        "encoded": "Step%202:%20Trigger%20a%20workflow%20that%20spawns%20sub-agents",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "9cb8dc",
+        "hash": "473575ab",
+        "encoded": "Step%203:%20Monitor%20token%20usage%20during%20sub-agent%20execution",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "9cb8dc",
+        "hash": "c2d601e4",
+        "encoded": "Step%204:%20Verify%20sub-agent%20LLM%20calls%20are%20tracked",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "9cb8dc",
+        "hash": "640af2e7",
+        "encoded": "Step%205:%20Verify%20total%20includes%20all%20agent%20calls%22,%22Query:%20'Run%20parallel%20agents%20to%20analyze%20multiple%20modules'%22,%22Step%201:%20Plugin%20opens%20successfully",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "9cb8dc",
+        "hash": "37fd9f3d",
+        "encoded": "Step%202:%20Sub-agents%20are%20spawned",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "9cb8dc",
+        "hash": "d813bdb6",
+        "encoded": "Step%203:%20Token%20usage%20increments%20during%20sub-agent%20activity",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "9cb8dc",
+        "hash": "a33856eb",
+        "encoded": "Step%204:%20Each%20sub-agent%20LLM%20call%20is%20counted",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "9cb8dc",
+        "hash": "e5f70160",
+        "encoded": "Step%205:%20Total%20tokens%20=%20Main%20agent%20+%20Sub-agent1%20+%20Sub-agent2...%22,%22Not%20Started%22,%22High%22,%22Token%20Tracking%20-%20Sub-Agents%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "9cb8dc",
+        "hash": "175263ec",
+        "encoded": "%22TC_77357_08:%20Verify%20Token%20Usage%20with%20Zero%20Token%20Consumption%22,%22Verify%20that%20the%20system%20correctly%20handles%20scenarios%20where%20no%20tokens%20are%20consumed%22,%22Step%201:%20Open%20Slingshot%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "9cb8dc",
+        "hash": "aa316fe2",
+        "encoded": "Step%202:%20Perform%20an%20action%20that%20doesn't%20trigger%20LLM%20call",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "9cb8dc",
+        "hash": "fc0712ae",
+        "encoded": "Step%203:%20Check%20token%20usage%20UI",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "9cb8dc",
+        "hash": "fd144c66",
+        "encoded": "Step%204:%20Verify%20token%20count%20remains%20at%20previous%20value%20or%20shows%200%20for%20new%20session",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "9cb8dc",
+        "hash": "5326e8d0",
+        "encoded": "Step%205:%20Confirm%20no%20false%20token%20increments%22,%22Action:%20Open%20plugin%20without%20sending%20any%20query%22,%22Step%201:%20Plugin%20opens%20successfully",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "9cb8dc",
+        "hash": "7929c57d",
+        "encoded": "Step%202:%20No%20LLM%20call%20is%20made",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "9cb8dc",
+        "hash": "dd876a10",
+        "encoded": "Step%203:%20Token%20usage%20UI%20is%20visible",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "9cb8dc",
+        "hash": "18885596",
+        "encoded": "Step%204:%20Token%20count%20shows%200%20or%20no%20change%20from%20previous%20value",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "9cb8dc",
+        "hash": "28856180",
+        "encoded": "Step%205:%20No%20unexpected%20token%20usage%20recorded%22,%22Not%20Started%22,%22Medium%22,%22Token%20Tracking%20-%20Edge%20Case%22,%22Functional%22,%22Edge%20Case%22",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "9cb8dc",
+        "hash": "235d9576",
+        "encoded": "%22TC_77357_09:%20Verify%20Token%20Usage%20with%20Maximum%20Token%20Limit%22,%22Verify%20that%20the%20system%20correctly%20handles%20and%20displays%20token%20usage%20when%20approaching%20or%20reaching%20maximum%20token%20limits%22,%22Step%201:%20Open%20Slingshot%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "9cb8dc",
+        "hash": "71348342",
+        "encoded": "Step%202:%20Execute%20queries%20that%20consume%20large%20amounts%20of%20tokens",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "9cb8dc",
+        "hash": "9738a94b",
+        "encoded": "Step%203:%20Monitor%20token%20usage%20as%20it%20approaches%20limit%20(e.g.,%20200000%20tokens)",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "9cb8dc",
+        "hash": "fc99a5e1",
+        "encoded": "Step%204:%20Verify%20UI%20displays%20warning%20if%20applicable",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "9cb8dc",
+        "hash": "d327b861",
+        "encoded": "Step%205:%20Verify%20total%20token%20count%20is%20accurate%22,%22Query:%20'Analyze%20entire%20large%20codebase%20with%20detailed%20explanations'",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "9cb8dc",
+        "hash": "524f298b",
+        "encoded": "Expected%20tokens:%20Close%20to%20maximum%20limit%22,%22Step%201:%20Plugin%20opens%20successfully",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "9cb8dc",
+        "hash": "cbc12197",
+        "encoded": "Step%202:%20Large%20token%20consumption%20queries%20execute",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "9cb8dc",
+        "hash": "6911f1a5",
+        "encoded": "Step%203:%20Token%20count%20increases%20significantly",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "9cb8dc",
+        "hash": "95dd6b7b",
+        "encoded": "Step%204:%20Warning%20message%20appears%20if%20limit%20is%20near",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "9cb8dc",
+        "hash": "8dc1b0fd",
+        "encoded": "Step%205:%20Total%20token%20count%20is%20accurate%20and%20not%20truncated%22,%22Not%20Started%22,%22High%22,%22Token%20Tracking%20-%20Boundary%22,%22Functional%22,%22Edge%20Case%22",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "9cb8dc",
+        "hash": "4e3ff689",
+        "encoded": "%22TC_77357_10:%20Verify%20Token%20Usage%20Reset%20on%20New%20Session%22,%22Verify%20that%20token%20usage%20counter%20resets%20appropriately%20when%20a%20new%20session%20is%20started%22,%22Step%201:%20Open%20Slingshot%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "9cb8dc",
+        "hash": "552ad927",
+        "encoded": "Step%202:%20Execute%20queries%20consuming%20tokens%20(e.g.,%201000%20tokens)",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "9cb8dc",
+        "hash": "27acd895",
+        "encoded": "Step%203:%20Note%20the%20total%20token%20usage",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "9cb8dc",
+        "hash": "8e594386",
+        "encoded": "Step%204:%20Start%20a%20new%20session/conversation",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "9cb8dc",
+        "hash": "a06e8c01",
+        "encoded": "Step%205:%20Verify%20token%20counter%20resets%20to%200%20for%20new%20session%22,%22Session%201%20Query:%20'Explain%20this%20function'",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "9cb8dc",
+        "hash": "8d6a046f",
+        "encoded": "Session%202:%20Start%20new%20conversation%22,%22Step%201:%20Plugin%20opens%20successfully",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "9cb8dc",
+        "hash": "b1fb3d1d",
+        "encoded": "Step%202:%20Token%20usage%20shows%201000+%20tokens",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "9cb8dc",
+        "hash": "8e20cd3c",
+        "encoded": "Step%203:%20Total%20recorded:%201000%20tokens",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "9cb8dc",
+        "hash": "fdacd583",
+        "encoded": "Step%204:%20New%20session%20starts",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "9cb8dc",
+        "hash": "e0af3f68",
+        "encoded": "Step%205:%20Token%20counter%20shows%200%20or%20session-specific%20count%22,%22Not%20Started%22,%22Medium%22,%22Token%20Tracking%20-%20Session%20Management%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "9cb8dc",
+        "hash": "f9a12ff4",
+        "encoded": "%22TC_77357_11:%20Verify%20Token%20Usage%20with%20Invalid/Null%20Responses%22,%22Verify%20that%20the%20system%20handles%20token%20tracking%20correctly%20when%20LLM%20calls%20fail%20or%20return%20null%20responses%22,%22Step%201:%20Open%20Slingshot%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "9cb8dc",
+        "hash": "b31dbb84",
+        "encoded": "Step%202:%20Trigger%20a%20query%20that%20may%20cause%20LLM%20failure",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "9cb8dc",
+        "hash": "c8ce724e",
+        "encoded": "Step%203:%20Observe%20the%20error%20handling",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "9cb8dc",
+        "hash": "5918f95f",
+        "encoded": "Step%204:%20Check%20token%20usage%20UI",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "9cb8dc",
+        "hash": "f73e59ca",
+        "encoded": "Step%205:%20Verify%20failed%20calls%20don't%20corrupt%20token%20count%22,%22Query:%20Send%20malformed%20request%20or%20trigger%20network%20timeout%22,%22Step%201:%20Plugin%20opens%20successfully",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "9cb8dc",
+        "hash": "5674f76a",
+        "encoded": "Step%202:%20LLM%20call%20fails",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "9cb8dc",
+        "hash": "dcf91223",
+        "encoded": "Step%203:%20Error%20message%20is%20displayed",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "9cb8dc",
+        "hash": "b9ef0b19",
+        "encoded": "Step%204:%20Token%20usage%20UI%20remains%20stable",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "9cb8dc",
+        "hash": "a6a503d9",
+        "encoded": "Step%205:%20Token%20count%20doesn't%20show%20NaN,%20null,%20or%20negative%20values%22,%22Not%20Started%22,%22Medium%22,%22Token%20Tracking%20-%20Error%20Handling%22,%22Functional%22,%22Negative%22",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "9cb8dc",
+        "hash": "d09e3b80",
+        "encoded": "%22TC_77357_12:%20Verify%20Concurrent%20Token%20Tracking%20Accuracy%22,%22Verify%20that%20token%20usage%20is%20accurately%20tracked%20when%20multiple%20LLM%20calls%20occur%20concurrently%22,%22Step%201:%20Open%20Slingshot%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "9cb8dc",
+        "hash": "d1ec689b",
+        "encoded": "Step%202:%20Trigger%20parallel%20agents%20with%20multiple%20concurrent%20LLM%20calls",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "9cb8dc",
+        "hash": "7ec8ef07",
+        "encoded": "Step%203:%20Monitor%20token%20usage%20during%20concurrent%20execution",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "9cb8dc",
+        "hash": "0adc53f8",
+        "encoded": "Step%204:%20Wait%20for%20all%20concurrent%20calls%20to%20complete",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "9cb8dc",
+        "hash": "50ddae38",
+        "encoded": "Step%205:%20Verify%20total%20token%20count%20is%20sum%20of%20all%20concurrent%20calls%22,%22Query:%20'Run%20parallel%20analysis%20on%205%20different%20modules'",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "9cb8dc",
+        "hash": "a6a08b92",
+        "encoded": "Expected:%205+%20concurrent%20LLM%20calls%22,%22Step%201:%20Plugin%20opens%20successfully",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "9cb8dc",
+        "hash": "2207edc3",
+        "encoded": "Step%202:%20Multiple%20agents%20execute%20in%20parallel",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "9cb8dc",
+        "hash": "89a8897d",
+        "encoded": "Step%203:%20Token%20usage%20updates%20during%20execution",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "9cb8dc",
+        "hash": "cdc4bb19",
+        "encoded": "Step%204:%20All%20concurrent%20calls%20complete",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "9cb8dc",
+        "hash": "aa27db6f",
+        "encoded": "Step%205:%20Total%20tokens%20=%20Call1%20+%20Call2%20+%20Call3%20+%20Call4%20+%20Call5%20(no%20race%20conditions)%22,%22Not%20Started%22,%22High%22,%22Token%20Tracking%20-%20Concurrency%22,%22Functional%22,%22Edge%20Case%22",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "9cb8dc",
+        "hash": "5b82625e",
+        "encoded": "%22TC_77357_13:%20Verify%20Token%20Usage%20with%20Empty/Minimal%20Queries%22,%22Verify%20that%20token%20tracking%20works%20correctly%20for%20minimal%20token%20consumption%20scenarios%22,%22Step%201:%20Open%20Slingshot%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "9cb8dc",
+        "hash": "40fa597f",
+        "encoded": "Step%202:%20Send%20a%20very%20short%20query%20(1-2%20words)",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "9cb8dc",
+        "hash": "7b515209",
+        "encoded": "Step%203:%20Observe%20token%20usage%20UI",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "9cb8dc",
+        "hash": "b22c56e2",
+        "encoded": "Step%204:%20Verify%20minimal%20token%20count%20is%20displayed",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "9cb8dc",
+        "hash": "65772c4b",
+        "encoded": "Step%205:%20Verify%20accuracy%20of%20small%20token%20values%22,%22Query:%20'Hi'%20or%20'Help'",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "9cb8dc",
+        "hash": "fbc9c036",
+        "encoded": "Expected%20tokens:%20Less%20than%2010%22,%22Step%201:%20Plugin%20opens%20successfully",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "9cb8dc",
+        "hash": "d651b322",
+        "encoded": "Step%202:%20Short%20query%20executes",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "9cb8dc",
+        "hash": "acea9856",
+        "encoded": "Step%203:%20Token%20usage%20UI%20updates",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "9cb8dc",
+        "hash": "d6ddfd54",
+        "encoded": "Step%204:%20Token%20count%20shows%20small%20positive%20value%20(e.g.,%205-8%20tokens)",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "9cb8dc",
+        "hash": "5a61a385",
+        "encoded": "Step%205:%20Display%20accurately%20reflects%20minimal%20usage%22,%22Not%20Started%22,%22Low%22,%22Token%20Tracking%20-%20Minimal%20Usage%22,%22Functional%22,%22Edge%20Case%22",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "9cb8dc",
+        "hash": "c3c1b902",
+        "encoded": "%22TC_77357_14:%20Verify%20Token%20Usage%20Aggregation%20Formula%20Correctness%22,%22Verify%20that%20the%20aggregation%20formula%20correctly%20sums%20main%20agent%20calls,%20tool%20compaction%20calls,%20manual%20compaction%20calls,%20and%20other%20agent%20calls%22,%22Step%201:%20Open%20Slingshot%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "9cb8dc",
+        "hash": "5f481c31",
+        "encoded": "Step%202:%20Execute%20a%20complex%20workflow%20with%20all%20types%20of%20LLM%20calls",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "9cb8dc",
+        "hash": "7b3b3a69",
+        "encoded": "Step%203:%20Note%20individual%20token%20counts%20for%20each%20call%20type",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "9cb8dc",
+        "hash": "f245e8ab",
+        "encoded": "Step%204:%20Calculate%20expected%20total%20manually",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "9cb8dc",
+        "hash": "451815c6",
+        "encoded": "Step%205:%20Compare%20with%20displayed%20total%20in%20UI%22,%22Workflow:%20Main%20query%20+%20Tool%20compaction%20+%20Manual%20compaction%20+%20Sub-agent%20call",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "9cb8dc",
+        "hash": "43416733",
+        "encoded": "Main:%20100%20tokens,%20Tool:%2050,%20Manual:%2030,%20Sub-agent:%2020",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "9cb8dc",
+        "hash": "096ef246",
+        "encoded": "Expected%20Total:%20200%20tokens%22,%22Step%201:%20Plugin%20opens%20successfully",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "9cb8dc",
+        "hash": "b191d1bd",
+        "encoded": "Step%202:%20All%20call%20types%20execute",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "9cb8dc",
+        "hash": "bb9c8713",
+        "encoded": "Step%203:%20Individual%20counts:%20Main=100,%20Tool=50,%20Manual=30,%20Sub=20",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "9cb8dc",
+        "hash": "b7af6827",
+        "encoded": "Step%204:%20Manual%20calculation:%20100+50+30+20%20=%20200",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "9cb8dc",
+        "hash": "85498623",
+        "encoded": "Step%205:%20UI%20displays%20total:%20200%20tokens%20(match%20confirmed)%22,%22Not%20Started%22,%22High%22,%22Token%20Tracking%20-%20Calculation%20Validation%22,%22Functional%22,%22Positive%22",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "9cb8dc",
+        "hash": "6c8c88ab",
+        "encoded": "%22TC_77357_15:%20Verify%20Token%20Usage%20Persistence%20Across%20Plugin%20Restart%22,%22Verify%20the%20behavior%20of%20token%20usage%20tracking%20when%20the%20IntelliJ%20plugin%20is%20restarted%20during%20an%20active%20session%22,%22Step%201:%20Open%20Slingshot%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "9cb8dc",
+        "hash": "97652241",
+        "encoded": "Step%202:%20Execute%20queries%20consuming%20tokens%20(e.g.,%20500%20tokens)",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "9cb8dc",
+        "hash": "1a2e34ee",
+        "encoded": "Step%203:%20Note%20the%20total%20token%20usage%20displayed",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "9cb8dc",
+        "hash": "10b6ea93",
+        "encoded": "Step%204:%20Restart%20the%20IntelliJ%20plugin",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "9cb8dc",
+        "hash": "c3272085",
+        "encoded": "Step%205:%20Verify%20token%20usage%20behavior%20after%20restart%22,%22Pre-restart%20tokens:%20500",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "9cb8dc",
+        "hash": "5a6918be",
+        "encoded": "Action:%20Restart%20plugin%22,%22Step%201:%20Plugin%20opens%20successfully",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "9cb8dc",
+        "hash": "3e8b77a6",
+        "encoded": "Step%202:%20Token%20usage%20accumulates%20to%20500%20tokens",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "9cb8dc",
+        "hash": "42fe891d",
+        "encoded": "Step%203:%20Total%20displayed:%20500%20tokens",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "9cb8dc",
+        "hash": "636f11e5",
+        "encoded": "Step%204:%20Plugin%20restarts%20successfully",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "9cb8dc",
+        "hash": "e1810c4d",
+        "encoded": "Step%205:%20Token%20count%20either%20resets%20to%200%20(expected%20for%20new%20session)%20or%20persists%20based%20on%20session%20management%20design%22,%22Not%20Started%22,%22Medium%22,%22Token%20Tracking%20-%20Persistence%22,%22Functional%22,%22Edge%20Case%22",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "9cb8dc",
+        "hash": "f256ef91",
+        "encoded": "---%20Written%20by%20Devendra%20---",
+        "prevChunkIds": []
+      }
+    }
+  }
+}
