@@ -1,0 +1,618 @@
+{
+  "README.md": {
+    "filename": "README.md",
+    "path": "README.md",
+    "version": "1.2",
+    "contextFile": "7d7ba11e-context.json",
+    "chunks": {
+      "06cf37": {
+        "user": "Devendrappa .",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1789043984,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.3.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "8274b8eb"
+        },
+        "hash": "8b487a78",
+        "messageId": "system_b8e86d60-ad13-11f1-9863-61471c6f6f33",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendrappa .\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/10/2026, 6:09:44 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "06cf37",
+        "hash": "18b91896",
+        "encoded": "#%20spring-boot-react-ecommerce-app",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "06cf37",
+        "hash": "732ed853",
+        "encoded": "eCommerce%20application%20based%20on%20the%20microservices%20architecture%20built%20using%20Spring%20Boot%20and%20ReactJS.",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "06cf37",
+        "hash": "9272b18c",
+        "encoded": "**DEMO**",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "06cf37",
+        "hash": "7859da15",
+        "encoded": "-%20Deployed%20to%20Heroku%20Cloud:",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "06cf37",
+        "hash": "3e4c51c1",
+        "encoded": "https://shoppers-ecom-app.herokuapp.com",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "06cf37",
+        "hash": "e9eed663",
+        "encoded": "**Note:**%20It%20is%20running%20on%20a%20free%20dyno,%20so%20the%20services%20go%20to%20sleep%20if%20not%20in%20use.",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "06cf37",
+        "hash": "8e27b7c5",
+        "encoded": "For%20the%20first%20time,%20it%20may%20take%20some%20time%20to%20respond.",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "06cf37",
+        "hash": "b85a0ea5",
+        "encoded": "**FEATURES**",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "06cf37",
+        "hash": "75cce1bb",
+        "encoded": "-%20Google%20OAuth%202.0%20support%20for%20quick%20login.",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "06cf37",
+        "hash": "5a30b428",
+        "encoded": "-%20Regular%20Username/Password%20authentication.",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "06cf37",
+        "hash": "6535f056",
+        "encoded": "-%20Search%20bar%20and%20Search%20suggestions%20help%20to%20find%20products%20quickly.",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "06cf37",
+        "hash": "8192cca7",
+        "encoded": "-%20Stores%20user%20information%20in%20the%20MySQL%20database.",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "06cf37",
+        "hash": "f26a8eb3",
+        "encoded": "-%20Stores%20API%20data%20in%20Redis%20Cache%20to%20minimize%20network%20calls.",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "06cf37",
+        "hash": "144111a4",
+        "encoded": "-%20Select%20filters%20to%20display%20products%20based%20on%20the%20selections.",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "06cf37",
+        "hash": "0c252363",
+        "encoded": "-%20Sort%20products%20by%20popularity,%20newest,%20and%20prices.",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "06cf37",
+        "hash": "b7dfd68d",
+        "encoded": "-%20Pagination%20to%20display%20max%20products%20on%20a%20single%20page.",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "06cf37",
+        "hash": "f79a7140",
+        "encoded": "-%20Stores%20authentication%20details%20like%20token%20information%20in%20cookies.",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "06cf37",
+        "hash": "eb8156ce",
+        "encoded": "-%20Store%20cart's%20product%20information%20in%20cookies.",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "06cf37",
+        "hash": "5e14bb1f",
+        "encoded": "-%20Payment%20service%20using%20Stripe's%20API%20to%20buy%20products.",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "06cf37",
+        "hash": "d80e2504",
+        "encoded": "-%20Responsiveness%20support%20for%20all%20devices.",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "06cf37",
+        "hash": "73ba3e9a",
+        "encoded": "**TOOLS%20USED**",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "06cf37",
+        "hash": "b4e4a73e",
+        "encoded": "-%20**ReactJS:**%20Front-end%20Javascript%20framework.",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "06cf37",
+        "hash": "24c6764a",
+        "encoded": "-%20**Spring%20Boot%202.0:**%20Back-end%20JAVA%20framework%20to%20build%20microservices%20using%20Spring",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "06cf37",
+        "hash": "057ec306",
+        "encoded": "Rest%20Controller%20and%20Spring%20JPA.",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "06cf37",
+        "hash": "67fcb44d",
+        "encoded": "-%20**Material-UI:**%20Used%20Google's%20material%20design%20based%20on%20the%20CSS%20Framework%20for%20a%20responsive%20website.",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "06cf37",
+        "hash": "fe49b210",
+        "encoded": "-%20**Semantic-UI:**%20Used%20some%20components%20which%20Material-UI%20doesn't%20support.",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "06cf37",
+        "hash": "8979168e",
+        "encoded": "-%20**MySQL:**%20Stores%20product%20and%20user%20information.",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "06cf37",
+        "hash": "70be08e6",
+        "encoded": "-%20**Redis:**%20Stores%20API%20data%20in%20key-value%20pairs.",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "06cf37",
+        "hash": "fc5749c8",
+        "encoded": "-%20**Cloudinary:**%20CDN%20server%20for%20storing%20product%20images.",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "06cf37",
+        "hash": "0159a89e",
+        "encoded": "-%20**Google%20OAuth:**%203rd%20Party%20authentication%20service%20for%20quick%20login%20by%20retrieving%20user%20profile%20information.",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "06cf37",
+        "hash": "fe5eec3e",
+        "encoded": "-%20**Stripe:**%20Payment%20service%20API%20to%20handle%20user%20payment%20requests.",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "06cf37",
+        "hash": "05485273",
+        "encoded": "-%20**Heroku%20Cloud%20Platform:**%20Deploying%20microservices%20on%20Heroku.",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "06cf37",
+        "hash": "e0b01831",
+        "encoded": "-%20**Docker-Compose:**%20Easy%20way%20to%20bring%20up%20the%20application%20using%20containerization%20and%20behaves%20similarly%20in%20the%20production%20environment.",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "06cf37",
+        "hash": "cb6d439b",
+        "encoded": "**MICROSERVICES**",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "06cf37",
+        "hash": "f457e4f1",
+        "encoded": "-%20**React-UI%20Service:**%20Front-end%20client%20UI%20which%20displays%20data%20and%20makes%20API%20calls%20using%20Axios%20API.",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "06cf37",
+        "hash": "6b1d537e",
+        "encoded": "-%20**Common%20Data%20Service:**%20Handles%20client%20request%20to%20provide%20common%20data%20such%20as%20product,%20filters,%20categories%20and%20order%20information,%20etc.",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "06cf37",
+        "hash": "4a00f5dc",
+        "encoded": "-%20**Authentication%20Service:**%20Creates%20user%20account%20and%20handles%20username/password%20authentication.",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "06cf37",
+        "hash": "b4b25533",
+        "encoded": "-%20**Payment%20Service:**%20Handles%20payment%20requests%20from%20the%20client%20and%20makes%20a%20subsequent%20request%20to%20Stripe%20API",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "06cf37",
+        "hash": "64eb4c46",
+        "encoded": "for%20money%20deduction.",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "06cf37",
+        "hash": "b845f64e",
+        "encoded": "-%20**Search%20Suggestion%20Service:**%20Provide%20default%20search%20suggestions%20and%20provides%20suggestions%20based%20on%20a%20prefix%20using%20Hashmap.%20The%20service%20creates%20the%20Hashmap%20based%20on%20available%20data%20from%20the%20database%20with%20various%20combinations%20and%20populates%20the%20map.",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "06cf37",
+        "hash": "3ac69e36",
+        "encoded": "**Steps%20for%20executing%20the%20application%20using%20docker-compose:**",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "06cf37",
+        "hash": "9689c1a0",
+        "encoded": "Installation%20Video:%20https://youtu.be/nPKYbdKPd0E",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "06cf37",
+        "hash": "b7747bc9",
+        "encoded": "1.%20Clone/Download%20the%20repository.",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "06cf37",
+        "hash": "ed83b8b3",
+        "encoded": "2.%20Set%20the%20environmental%20variables%20which%20will%20be%20impacted%20on%20docker-compose.yml.",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "06cf37",
+        "hash": "25e5ea2d",
+        "encoded": "1.%20Rename%20the%20file%20%22.env-sample%22%20to%20%22.env%22.",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "06cf37",
+        "hash": "3b132f7b",
+        "encoded": "2.%20(Optional%20Step)%20You%20need%20to%20create%20a%20Stripe%20account%20and%20Google%20OAuth%20credentials.",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "06cf37",
+        "hash": "f2a5d00b",
+        "encoded": "The%20application%20works%20even%20if%20you%20don't%20create%20this%20account,%20only%20the%20payment%20and%20OAuth%20functionality%20will%20not%20work.",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "06cf37",
+        "hash": "e2edc37a",
+        "encoded": "These%20accounts%20doesn't%20charge%20you%20anything%20and%20are%20absolutely%20free.%3Cbr/%3E%3Cbr/%3E",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "06cf37",
+        "hash": "a392312b",
+        "encoded": "You%20need%20to%20set%20below%20two%20env%20variables.%3Cbr/%3E%3Cbr/%3E",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "06cf37",
+        "hash": "c30991f8",
+        "encoded": "REACT_APP_STRIPE_PUBLISH_KEY=%3CYour%20Stripe%20Publishable%20Key%3E",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "06cf37",
+        "hash": "4bf02450",
+        "encoded": "Go%20%5BHere%5D(https://dashboard.stripe.com/register)%20to%20create%20a%20Stripe%20account.",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "06cf37",
+        "hash": "15676f93",
+        "encoded": "%3Cbr/%3E%3Cbr/%3E",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "06cf37",
+        "hash": "03d98101",
+        "encoded": "REACT_APP_GOOGLE_AUTH_CLIENT_ID=%3CYour%20Google%20AUTH%20Client%20ID%3E",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "06cf37",
+        "hash": "2186ea85",
+        "encoded": "Go%20%5BHere%5D(https://console.developers.google.com)%20to%20create%20Google%20OAuth%20Credentials.",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "06cf37",
+        "hash": "4e5cca0e",
+        "encoded": "3.%20Build%20all%20the%20microservices%20and%20run%20the%20app%20using%20docker-compose.%20This%20is%20done%20using%20./start-all.sh%20script%20which%20creates%20the%20network%20and%20set%20the%20container%20dependencies%20based%20on%20the%20config%20mention%20in%20the%20docker-compose.yml.",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "06cf37",
+        "hash": "df6ac836",
+        "encoded": "This%20will%20build%20all%20the%20jar%20files%20and%20run%20all%20the%20services.",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "06cf37",
+        "hash": "f95f11be",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "06cf37",
+        "hash": "a5fe0080",
+        "encoded": "./start-all.sh",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "06cf37",
+        "hash": "8e9ac3d3",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "06cf37",
+        "hash": "a8decfe6",
+        "encoded": "4.%20If%20you%20are%20making%20any%20change%20in%20the%20code%20then%20you%20need%20to%20you%20./stop-all.sh%20to%20clean%20up%20the%20jars%20created%20by%20./start-all.sh%20script.",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "06cf37",
+        "hash": "2d5a4066",
+        "encoded": "**Payment%20Service%20Test%20Details:**",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "06cf37",
+        "hash": "1b9b6006",
+        "encoded": "Credit%20card%20no.:%204242%204242%204242%204242",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "06cf37",
+        "hash": "c46310c7",
+        "encoded": "Expiry:%20Any%20future%20date",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "06cf37",
+        "hash": "670a4bad",
+        "encoded": "CVV:%20Any%203-digit%20number",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "06cf37",
+        "hash": "ab5fca17",
+        "encoded": "**Steps%20to%20deploy%20on%20Heroku%20using%20docker-compose:**",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "06cf37",
+        "hash": "557c0dc4",
+        "encoded": "1.%20create%20heroku.yml%20as%20docker-compose.yml%20is%20not%20invoked%20on%20Heroku.",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "06cf37",
+        "hash": "0a3079e3",
+        "encoded": "2.%20If%20the%20application%20contains%20a%20database%20then%20install%20MySQL%20or%20any%20other%20database",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "06cf37",
+        "hash": "74c578bf",
+        "encoded": "from%20Heroku%20marketplace%5Bhttps://elements.heroku.com%5D.",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "06cf37",
+        "hash": "7047a63e",
+        "encoded": "%3Cbr/%3E%3Cbr/%3E",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "06cf37",
+        "hash": "c2ded5f1",
+        "encoded": "Note:%20Before%20installing%20you%20need%20to%20add%20credit/debit%20card%20info.%20Without%20this%20it",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "06cf37",
+        "hash": "3b024139",
+        "encoded": "won't%20allow%20you%20to%20install%20the%20database.",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "06cf37",
+        "hash": "2876ddb2",
+        "encoded": "3.%20Set%20the%20config%20vars%20based%20on%20the%20database%20URL.",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "06cf37",
+        "hash": "53625b02",
+        "encoded": "4.%20Set%20the%20stack:container%20for%20the%20application%20in%20order%20to%20build%20with%20docker-compose.",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "06cf37",
+        "hash": "d31b20af",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "06cf37",
+        "hash": "7cab5b4b",
+        "encoded": "heroku%20stack:set%20container%20-a%20%3Capplication-name%3E",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "06cf37",
+        "hash": "062ff69e",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "06cf37",
+        "hash": "ec595f67",
+        "encoded": "5.%20Deploy%20individual%20service%20on%20Heroku.",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "06cf37",
+        "hash": "310f55fb",
+        "encoded": "**References**",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "06cf37",
+        "hash": "a31497c8",
+        "encoded": "1.%20https://spring.io/blog/2015/06/08/cors-support-in-spring-framework",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "06cf37",
+        "hash": "a88bef9a",
+        "encoded": "2.%20https://devcenter.heroku.com/articles/build-docker-images-heroku-yml",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "06cf37",
+        "hash": "c718a2c4",
+        "encoded": "3.%20https://material-ui.com/",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "06cf37",
+        "hash": "82383984",
+        "encoded": "4.%20https://react.semantic-ui.com/",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "06cf37",
+        "hash": "9b083c07",
+        "encoded": "5.%20https://swiperjs.com/demos/",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "06cf37",
+        "hash": "61fba023",
+        "encoded": "6.%20https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "06cf37",
+        "hash": "df9f4851",
+        "encoded": "7.%20https://redis.io/commands",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "06cf37",
+        "hash": "4983384f",
+        "encoded": "8.%20https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#reference",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "06cf37",
+        "hash": "84680179",
+        "encoded": "9.%20https://github.com/google/gson",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "06cf37",
+        "hash": "7bc825c1",
+        "encoded": "10.%20http://modelmapper.org/user-manual/spring-integration/",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "06cf37",
+        "hash": "c280a47c",
+        "encoded": "11.%20https://www.baeldung.com/spring-data-redis-tutorial",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "06cf37",
+        "hash": "d6ba2485",
+        "encoded": "12.%20https://github.com/js-cookie/js-cookie",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "06cf37",
+        "hash": "15d148f2",
+        "encoded": "13.%20https://reactjs.org/docs/hooks-reference.html",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "06cf37",
+        "hash": "d87590d9",
+        "encoded": "14.%20https://redux-form.com/8.3.0/docs/gettingstarted.md/",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "06cf37",
+        "hash": "85576fc1",
+        "encoded": "15.%20https://react-redux.js.org/api/connect",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "06cf37",
+        "hash": "0c80611e",
+        "encoded": "16.%20https://github.com/reduxjs/redux-thunk",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "06cf37",
+        "hash": "3534da19",
+        "encoded": "17.%20https://attacomsian.com/blog/spring-data-jpa-one-to-many-mapping",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "06cf37",
+        "hash": "ff07f42c",
+        "encoded": "18.%20https://stripe.com/docs",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "06cf37",
+        "hash": "33c33e1e",
+        "encoded": "19.%20https://developers.google.com/identity/protocols/oauth2",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "06cf37",
+        "hash": "86a82cf4",
+        "encoded": "20.%20https://devcenter.heroku.com/articles/heroku-redis",
+        "prevChunkIds": []
+      }
+    }
+  }
+}
