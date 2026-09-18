@@ -6,6 +6,18 @@
   "promptMessage": {
     "86746e90": {
       "value": "Give me the code for addition of two numbers"
+    },
+    "eee315e9": {
+      "value": "update this prompt add more complex flow \"open amazon.com , search for highest rated shoes and take snapshot of it\""
+    },
+    "675b2a34": {
+      "value": "give me test prompt related to sdlc"
+    },
+    "bd539d00": {
+      "value": "give simple prompt for Plan and execute featute test prompt related to QE process it shoul be very simple and exeutable"
+    },
+    "a6ec0147": {
+      "value": "i need even more simple prompt for plan and execute feature test so give me prompt writing java cod efor palindrome check"
     }
   },
   "localPrompts": {},

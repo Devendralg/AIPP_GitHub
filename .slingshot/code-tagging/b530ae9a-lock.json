@@ -1,0 +1,252 @@
+{
+  "MathUtils.java": {
+    "filename": "MathUtils.java",
+    "path": "MathUtils.java",
+    "version": "1.2",
+    "contextFile": "b530ae9a-context.json",
+    "chunks": {
+      "af41e2": {
+        "user": "Devendrappa .",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1789713676,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.4.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "f2cee5f9"
+        },
+        "hash": "1cd22f7b",
+        "messageId": "system_e6962040-b32b-11f1-8423-69e0a077e161",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendrappa .\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/18/2026, 12:11:16 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "af41e2",
+        "hash": "63f86def",
+        "encoded": "//%20This%20is%20slingshot%20version%203.2.0",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "af41e2",
+        "hash": "3da07bb7",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "af41e2",
+        "hash": "5238ebae",
+        "encoded": "*",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "af41e2",
+        "hash": "97c602ba",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "af41e2",
+        "hash": "9a54798e",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "af41e2",
+        "hash": "6c04ffe7",
+        "encoded": "*",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "af41e2",
+        "hash": "d3c91f81",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "af41e2",
+        "hash": "840004ae",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "af41e2",
+        "hash": "accdc651",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "af41e2",
+        "hash": "c55e73cf",
+        "encoded": "*",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "af41e2",
+        "hash": "d4590918",
+        "encoded": "*%20@return%20sum%20of%20a%20and%20b",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "af41e2",
+        "hash": "cfda9889",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "af41e2",
+        "hash": "b1d0306c",
+        "encoded": "public%20static%20int%20add(int%20a,%20int%20b)%20%7B",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "af41e2",
+        "hash": "792377b1",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "af41e2",
+        "hash": "6599f70a",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "af41e2",
+        "hash": "799d51d5",
+        "encoded": "*%20@return%20sum%20of%20a%20and%20b",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "af41e2",
+        "hash": "d89601c8",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "af41e2",
+        "hash": "2ef1d392",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "af41e2",
+        "hash": "5987bfad",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "af41e2",
+        "hash": "8d2db5fd",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "af41e2",
+        "hash": "aa2cfada",
+        "encoded": "public%20static%20double%20add(double%20a,%20double%20b)%20%7B",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "af41e2",
+        "hash": "3918013a",
+        "encoded": "return%20a%20+%20b;",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "af41e2",
+        "hash": "352e9b23",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "af41e2",
+        "hash": "7749a733",
+        "encoded": "public%20static%20int%20add(int...%20numbers)%20%7B",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "af41e2",
+        "hash": "9c0e6ebc",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "af41e2",
+        "hash": "cf898efd",
+        "encoded": "int%20sum%20=%200;",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "af41e2",
+        "hash": "c02e9b9c",
+        "encoded": "for%20(int%20num%20:%20numbers)%20%7B",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "af41e2",
+        "hash": "70416dc1",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "af41e2",
+        "hash": "787761ef",
+        "encoded": "return%20sum;",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "af41e2",
+        "hash": "21fcf007",
+        "encoded": "sum%20+=%20num;",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "af41e2",
+        "hash": "3d2b81ef",
+        "encoded": "public%20static%20void%20main(String%5B%5D%20args)%20%7B",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "af41e2",
+        "hash": "b0fba81b",
+        "encoded": "//%20Test%20integer%20addition",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "af41e2",
+        "hash": "e95a7fb6",
+        "encoded": "System.out.println(%225%20+%203%20=%20%22%20+%20add(5,%203));",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "af41e2",
+        "hash": "f3de6d80",
+        "encoded": "//%20Test%20double%20addition",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "af41e2",
+        "hash": "215453ec",
+        "encoded": "System.out.println(%225.5%20+%203.2%20=%20%22%20+%20add(5.5,%203.2));",
+        "prevChunkIds": []
+      },
+      "159": {
+        "chunkId": "af41e2",
+        "hash": "a39bef4a",
+        "encoded": "//%20Test%20variable%20arguments%20addition",
+        "prevChunkIds": []
+      },
+      "161": {
+        "chunkId": "af41e2",
+        "hash": "c9f7489d",
+        "encoded": "System.out.println(%221%20+%202%20+%203%20+%204%20+%205%20=%20%22%20+%20add(1,%202,%203,%204,%205));",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "filename": "settings.ts",
+  "path": "src\\config\\settings.ts",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "8953e10a": {
+      "value": "User level option to enable/ disable \"Prompt to Persona\" with default enabled"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

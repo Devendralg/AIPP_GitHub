@@ -1,0 +1,15 @@
+{
+  "filename": "AuthDataService.java",
+  "path": "server\\authentication-service\\src\\main\\java\\com\\ujjaval\\ecommerce\\authenticationservice\\service\\AuthDataService.java",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "0c29c07f": {
+      "value": "only modify this prompt to execute only user endpoints only postive one endpoint is enough\n\"Use the Swagger specification at https://petstore.swagger.io/v2/swagger.json \nGenerate functional API test cases for all endpoints. \nValidate positive and negative scenarios, HTTP status codes, request/response schema, and error handling. \nExecute the tests and provide a detailed execution report.\n\""
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

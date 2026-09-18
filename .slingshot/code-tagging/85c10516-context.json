@@ -1,0 +1,15 @@
+{
+  "filename": ".ssworkspaceignore",
+  "path": ".ssworkspaceignore",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "721dfa30": {
+      "value": "so now i need to include .vscode so tell me format"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

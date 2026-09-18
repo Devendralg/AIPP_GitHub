@@ -10,8 +10,12 @@
     "Slingshot.enablePromptRecommendationInSmartChat": true,
     "Slingshot.enableAtTheRateWorkspaceFeature": true,
     "Slingshot.enableECGMcpServer": true,
+    "Slingshot.enableLogs": true,
     "Slingshot.atTheRateWorkspaceIgnoredFilePatterns": [
-        "*.java"
+        "SellerAccount.java"
     ],
-    "Slingshot.enableLogs": true
+    "Slingshot.atTheRateWorkspaceInclusionFilePatterns": [
+        ".vscode/settings.json"
+    ],
+    "Slingshot.enableAutomaticCreationOfFilesWithFilenameClick": true
 }

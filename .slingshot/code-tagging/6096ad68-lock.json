@@ -1,0 +1,90 @@
+{
+  "src\\config\\settings.ts": {
+    "filename": "settings.ts",
+    "path": "src\\config\\settings.ts",
+    "version": "1.2",
+    "contextFile": "6096ad68-context.json",
+    "chunks": {
+      "f4aa5d": {
+        "user": "Devendrappa .",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1789714341,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.4.0",
+        "source": "chat",
+        "type": "createFileWithCode",
+        "extraContext": {
+          "promptMessage": "8953e10a"
+        },
+        "hash": "e39a1223",
+        "messageId": "system_07d780e0-b32d-11f1-8423-69e0a077e161",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendrappa .\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/18/2026, 12:22:21 PM\n- **source**: chat\n- **type**: createFileWithCode\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "f4aa5d",
+        "hash": "63f86def",
+        "encoded": "//%20This%20is%20slingshot%20version%203.2.0",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "f4aa5d",
+        "hash": "f841087c",
+        "encoded": "//%20CHANGE:%20Updated%20default%20value%20from%20false%20to%20true%20for%20Prompt%20to%20Persona",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "f4aa5d",
+        "hash": "58854164",
+        "encoded": "export%20const%20SETTINGS_SCHEMA%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "f4aa5d",
+        "hash": "d258df6f",
+        "encoded": "'slingshot.enablePromptToPersona':%20%7B",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "f4aa5d",
+        "hash": "e70d8057",
+        "encoded": "type:%20'boolean',",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "f4aa5d",
+        "hash": "3c50bf6b",
+        "encoded": "default:%20true,%20//%20CHANGE:%20Changed%20from%20false%20to%20true",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "f4aa5d",
+        "hash": "e6b808fa",
+        "encoded": "description:%20'Enable%20Prompt%20to%20Persona%20feature%20to%20find%20intent%20based%20on%20user%20prompt%20and%20enrich%20it%20accordingly%20for%20better%20conversation%20alignment.',",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "f4aa5d",
+        "hash": "31479947",
+        "encoded": "scope:%20'window'",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "f4aa5d",
+        "hash": "1c082ee4",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "f4aa5d",
+        "hash": "abc6348f",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

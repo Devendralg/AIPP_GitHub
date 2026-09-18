@@ -1,0 +1,15 @@
+{
+  "filename": "PaymentController.java",
+  "path": "server\\payment-service\\src\\main\\java\\com\\ujjaval\\ecommerce\\paymentservice\\controller\\PaymentController.java",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "ec3fafc9": {
+      "value": "I need to test these features as part of sanity so give me one line test prompt for these features prompt should be very minimal and it should test the feature \n\"Sonar Sub-Agent for Code Quality Insights \nAlert Icon on Tabs\nPlan and Track\nAgent Skills , learn more\nCode Review\nGenerate Slingshot Usage Report\""
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

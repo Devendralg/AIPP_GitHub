@@ -9,6 +9,21 @@
     },
     "7f0fb3c4": {
       "value": "could you provide me a test prompt for tool output campaction testing it should fetch more than 1 lakh characters then only compaction will happen so understand the workspace and provide me a prompt"
+    },
+    "625c03f5": {
+      "value": "explain thisfeature and i need to test this feature as part of Sanity testing so provide simple prompt that\n\"QE Web Agent\""
+    },
+    "8917aa38": {
+      "value": "I need to test these features as part of sanity so give me one line test prompt for these features prompt should be very minimal and it should test the feature \n\"Build a Unit Test Cases Execution Agent to Run EOE Tests in Drawer,\nAgent Hook ,\nAgent Hook Drawer for Manual Trigger,\nAgents.md file and Prompt Enrichment\n\""
+    },
+    "ec3fafc9": {
+      "value": "I need to test these features as part of sanity so give me one line test prompt for these features prompt should be very minimal and it should test the feature \n\"Sonar Sub-Agent for Code Quality Insights \nAlert Icon on Tabs\nPlan and Track\nAgent Skills , learn more\nCode Review\nGenerate Slingshot Usage Report\""
+    },
+    "ba625485": {
+      "value": "i need to retest this defect so tell me the steps https://publicisbodhi.atlassian.net/browse/SLIN-67596\nand also give me test prompts"
+    },
+    "dc5bc17b": {
+      "value": "i need to retest this defect so tell me the steps https://publicisbodhi.atlassian.net/browse/SLIN-77447\nand also give me test prompts"
     }
   },
   "localPrompts": {},

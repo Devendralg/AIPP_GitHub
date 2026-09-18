@@ -1,0 +1,21 @@
+{
+  "filename": "create_user_test_scenario.md",
+  "path": "create_user_test_scenario.md",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "d8eaef35": {
+      "value": "i need one liner prompt for above"
+    },
+    "2fabbb26": {
+      "value": "still you need to optimize the above one liner prompt"
+    },
+    "d47801bb": {
+      "value": "do the same for this as well \"Build a Unit Test Cases Execution Agent to Run EOE Tests in Drawer\""
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}
