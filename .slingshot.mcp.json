@@ -1,0 +1,12 @@
+{
+  "servers" : {
+    "rovo_atlassian_mcp_server" : {
+      "name" : "rovo_atlassian_mcp_server",
+      "description" : "Rovo Atlassian MCP Server for Jira and Confluence integration",
+      "type" : "http",
+      "isLocalMCPServer" : false,
+      "version" : "1.0.0",
+      "url" : "https://mcp.atlassian.com/v1/mcp"
+    }
+  }
+}
