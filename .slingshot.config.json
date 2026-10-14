@@ -1,5 +1,5 @@
 {
-  "sage_env": "int",
+  "sage_env": "uat",
   "ALLOW_DEV_MODE": true
 
 }
